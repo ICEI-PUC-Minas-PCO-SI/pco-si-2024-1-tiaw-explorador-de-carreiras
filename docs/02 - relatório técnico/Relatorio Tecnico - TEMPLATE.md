@@ -1,22 +1,21 @@
 <<<<<<< HEAD:docs/02 - relatório técnico/Relatorio Tecnico - TEMPLATE.md
 # Informações do Projeto
-`TÍTULO DO PROJETO`  
+`Explorador de Carreira`  
 
-......  COLOQUE AQUI O SEU TEXTO ......
+O projeto consiste em desenvolver um site que oferece um serviço de mapeamento de perfil pessoal para direcionar os usuários aos cursos mais adequados às suas características e interesses. Por meio de um questionário interativo, o site coleta informações sobre as habilidades, preferências e objetivos educacionais dos usuários.  
 
 `CURSO` 
 
-......  COLOQUE AQUI O SEU TEXTO ......
+Trabalho Interdisciplinar: Aplicações Web (PUC Minas/Contagem)
 
 ## Participantes
 
-......  COLOQUE AQUI O SEU TEXTO ......
-
-> Inclua a lista dos membros da equipe com seus nomes completos.
->
-> Os membros do grupo são: 
-> - Fulano da Silva
-> - Ciclano Albuquerque
+* Allef Henrique Costa Leandro
+* Eduardo Versiani de Melo Penna
+* Gustavo Henrique Soares da Silva
+* João Pedro Barbosa Oliveira
+* João Pedro dos Santos Martins
+* Victor Bryan Ferreira Lopes
 
 # Estrutura do Documento
 
@@ -57,19 +56,12 @@
 
 ## Problema
 
-......  COLOQUE AQUI O SEU TEXTO ......
+ A indecisão sobre qual curso escolher na faculdade, pode se levar em consideração também
+ a ampla variedade de cursos para escolher. Conforme foi exposto, o problema que se busca
+ resolver com este projeto é ajudar o público-alvo a escolher corretamente o curso que mais
+ se encaixa com seu perfil, mostrando para ele os caminhos para escolher o curso do seu
+ perfil e com um quiz de perguntas para saber qual área ele mais gosta e se adapta melhor.
 
-> Nesse momento você deve apresentar o problema que a sua aplicação deve
-> resolver. No entanto, não é a hora de comentar sobre a aplicação.
-> Descreva também o contexto em que essa aplicação será usada, se
-> houver: empresa, tecnologias, etc. Novamente, descreva apenas o que de
-> fato existir, pois ainda não é a hora de apresentar requisitos
-> detalhados ou projetos.
->
-> Nesse momento, o grupo pode optar por fazer uso
-> de ferramentas como Design Thinking, que permite um olhar de ponta a
-> ponta para o problema.
->
 > **Links Úteis**:
 > - [Objetivos, Problema de pesquisa e Justificativa](https://medium.com/@versioparole/objetivos-problema-de-pesquisa-e-justificativa-c98c8233b9c3)
 > - [Matriz Certezas, Suposições e Dúvidas](https://medium.com/educa%C3%A7%C3%A3o-fora-da-caixa/matriz-certezas-suposi%C3%A7%C3%B5es-e-d%C3%BAvidas-fa2263633655)
@@ -77,72 +69,64 @@
 
 ## Objetivos
 
-......  COLOQUE AQUI O SEU TEXTO ......
+ O objetivo geral deste trabalho é montar um site simples sobre como achar o curso ideal
+ para cada pessoa mostrando para ela no final o que mais se encaixa com o seu perfil.
+ Especificamente, podemos mostrar para o público-alvo:
+ ● Fornece umquiz de perguntas bem simples e especificas sobre a pessoa,
+ mostrando para ela no final qual curso ela se encaixa.
+ ● Fornecer as informações dos cursos como: o que é estudado, quais as áreas de
+ atuação e um resumo de como é o curso em cada período a se estudar.
 
-> Aqui você deve descrever os objetivos do trabalho indicando que o
-> objetivo geral é desenvolver um software para solucionar o problema
-> apresentado acima. Apresente também alguns (pelo menos 2) objetivos
-> específicos dependendo de onde você vai querer concentrar a sua
-> prática investigativa, ou como você vai aprofundar no seu trabalho.
-> 
 > **Links Úteis**:
 > - [Objetivo geral e objetivo específico: como fazer e quais verbos utilizar](https://blog.mettzer.com/diferenca-entre-objetivo-geral-e-objetivo-especifico/)
 
 ## Justificativa
 
-......  COLOQUE AQUI O SEU TEXTO ......
+A dificuldade de encontrar o curso ideal na faculdade é um problema muito comum entre os
+ estudantes que estão saindo do ensino médio. Alguns problemas que podem acontecer por
+ não saber o curso ideal ou escolher um indesejado:
+ ● Medodeescolher um curso inadequado e acabar se arrependendo no meio e
+ mudando de curso, isso causa uma perda de tempo que poderia estar fazendo o
+ curso adequado.
+ ● Podecausar um atraso acadêmico, pois os estudantes podem adiar sua inscrição
+ na faculdade e demorar mais tempo para se graduar.
+ ● Podeimpactar na carreira de trabalho, pois o indivíduo se forma em um curso em
+ que ele não gostou, trazendo dificuldades no trabalho por falta de experiencia ou
+ ânimo.
+ ● Escolher um curso por pressão de familiares ou amigos e acabar fazendo um
+ curso que a pessoa não gostaria.
+ O artigo acadêmico realizado em uma Universidade de São Paulo demonstra com
+ embasamento a importância de uma orientação a escolha das carreiras a serem seguidas
+ (http://pepsic.bvsalud.org/scielo.php?pid=S1676-73142002000200006&script=sci_arttext)
 
-> Descreva a importância ou a motivação para trabalhar com esta aplicação
-> que você escolheu. Indique as razões pelas quais você escolheu seus
-> objetivos específicos ou as razões para aprofundar em certos aspectos
-> do software.
-> 
-> O grupo de trabalho pode fazer uso de questionários, entrevistas e
-> dados estatísticos, que podem ser apresentados, com o objetivo de
-> esclarecer detalhes do problema que será abordado pelo grupo.
->
 > **Links Úteis**:
 > - [Como montar a justificativa](https://guiadamonografia.com.br/como-montar-justificativa-do-tcc/)
 
 ## Público-Alvo
 
-......  COLOQUE AQUI O SEU TEXTO ......
+ Embora todas as pessoas podem se beneficiar com este site, o público-alvo seria a maioria
+ composto principalmente por estudantes do ensino médio e jovens adultos. Este site vai
+ englobaria mais as pessoas entre 16 e 25 anos, já que estão entrando na faculdade ou
+ querem mudar de curso.
 
-> Descreva quem serão as pessoas que usarão a sua aplicação indicando os
-> diferentes perfis. O objetivo aqui não é definir quem serão os
-> clientes ou quais serão os papéis dos usuários na aplicação. A ideia
-> é, dentro do possível, conhecer um pouco mais sobre o perfil dos
-> usuários: conhecimentos prévios, relação com a tecnologia, relações
-> hierárquicas, etc.
->
-> Adicione informações sobre o público-alvo por meio de uma descrição
-> textual, ou diagramas de personas, mapa de stakeholders, ou como o
-> grupo achar mais conveniente.
-> 
 > **Links Úteis**:
 > - [Público-alvo: o que é, tipos, como definir seu público e exemplos](https://klickpages.com.br/blog/publico-alvo-o-que-e/)
 > - [Qual a diferença entre público-alvo e persona?](https://rockcontent.com/blog/diferenca-publico-alvo-e-persona/)
  
 # Especificações do Projeto
 
-......  COLOQUE AQUI O SEU TEXTO ......
-
-> Apresente uma visão geral do que será abordado nesta parte do
-> documento, enumerando as técnicas e/ou ferramentas utilizadas para
-> realizar a especificações do projeto
+ Após uma imersão realizada pela equipe, que envolveu observação dos usuários e
+ entrevistas, foi consolidada a definição precisa do problema e identificados os pontos mais
+ relevantes a serem abordados neste projeto. As percepções obtidas durante esse processo
+ foram organizadas na forma de personas e histórias de usuários.
 
 ## Personas e Mapas de Empatia
+   
+<img src="/pco-si-2024-1-tiaw-explorador-de-carreiras/docs/02 - relatório técnico/images/Persona (Júlia).png">
+<img src="/pco-si-2024-1-tiaw-explorador-de-carreiras/docs/02 - relatório técnico/images/Persona (Maurício).png">
+<img src="/pco-si-2024-1-tiaw-explorador-de-carreiras/docs/02 - relatório técnico/images/Persona (Carolina).png">
+<img src="/pco-si-2024-1-tiaw-explorador-de-carreiras/docs/02 - relatório técnico/images/Persona (Rafael).png">
 
-......  COLOQUE AQUI O SEU TEXTO ......
-
-
-> Relacione as personas identificadas no seu projeto e os respectivos mapas de empatia. Lembre-se que 
-> você deve ser enumerar e descrever precisamente e de forma
-> personalizada todos os principais envolvidos com a solução almeja. 
-> 
-> Para tanto, baseie-se tanto nos documentos disponibilizados na disciplina
-> e/ou nos seguintes links:
->
 > **Links Úteis**:
 > - [Persona x Público-alvo](https://flammo.com.br/blog/persona-e-publico-alvo-qual-a-diferenca/)
 > - [O que é persona?](https://resultadosdigitais.com.br/blog/persona-o-que-e/)
@@ -161,20 +145,147 @@
 
 ## Histórias de Usuários
 
-Com base na análise das personas forma identificadas as seguintes histórias de usuários:
+1) Nome: Júlia 
 
-|EU COMO... `PERSONA`| QUERO/PRECISO ... `FUNCIONALIDADE` |PARA ... `MOTIVO/VALOR`                 |
-|--------------------|------------------------------------|----------------------------------------|
-|Usuário do sistema  | Registrar minhas tarefas           | Não esquecer de fazê-las               |
-|Administrador       | Alterar permissões                 | Permitir que possam administrar contas |
+   Desejo:Encontrar orientação
+   sobre os cursos
+   universitários mais
+   adequados para mim.
 
-> Apresente aqui as histórias de usuário que são relevantes para o
-> projeto de sua solução. As Histórias de Usuário consistem em uma
-> ferramenta poderosa para a compreensão e elicitação dos requisitos
-> funcionais e não funcionais da sua aplicação. Se possível, agrupe as
-> histórias de usuário por contexto, para facilitar consultas
-> recorrentes à essa parte do documento.
->
+   Por que:  Estou no ensino médio e
+   não faço ideia do que
+   quero estudar na
+   faculdade. Preciso de
+   ajuda para descobrir
+   minhas habilidades,
+   interesses e objetivos
+   para tomar
+   uma decisão informada
+   sobre meu futuro
+   acadêmico e profissional.
+
+2) Nome: Mauricio 
+
+   Desejo:Explorar diferentes
+   opções de cursos
+   universitários que estejam
+   alinhados com minha
+   paixão por tecnologia.
+            
+  Por que: Estou no fim do ensino
+  médio e já tenho interesse
+  emumacarreira na área
+  de tecnologia, mas ainda
+  estou incerto sobre qual
+  caminho específico
+  seguir. Preciso de
+  orientação para encontrar
+  cursos que me preparem
+  adequadamente e me
+  ajudem a realizar meu
+  sonho de criar uma
+  startup de sucesso.
+
+3) Nome: Rafael
+
+  Desejo: Descobrir cursos de
+  marketing digital que me
+  ajudem a avançar em
+  minha carreira e alcançar
+  meu sonho de abrir minha
+  própria agência.
+
+  Por que: Mesmo empregado em
+  uma empresa de
+  marketing, sinto que
+  preciso me aprimorar e
+  adquirir novas habilidades
+  para alcançar meus
+  objetivos profissionais.
+  Preciso de orientação
+  para encontrar cursos
+  relevantes que me
+  preparem para ser
+  reconhecido como um
+  especialista em marketing
+  digital e realizar meu
+  sonho de empreender no
+  ramo.
+
+4) Nome: Carolina
+
+  Desejo: Identificar oportunidades 
+  de cursos de aperfeiçoamento 
+  profissional na área de
+  Administração.
+
+  Por que: Mesmo formada em Administração, 
+  ainda não consegui encontrar um emprego 
+  na área e sinto a necessidade de me aprimorar
+  para aumentar minhas chances no mercado de 
+  trabalho. Preciso de ajuda para encontrar cursos 
+  que complementam minha formação e me ajudem a 
+  realizar meu sonho de me tornar uma líder de 
+  sucesso em uma grande empresa.
+
+5) Nome: Júlia
+
+  Desejo: Realizar um teste de personalidade para 
+  descobrir quais cursos combinam melhor com 
+  minhas características e interesses.
+
+  Por que: Estou confusa sobre qual carreira 
+  seguir e gostaria de explorar todas as opções 
+  disponíveis. Preciso de uma maneira de entender 
+  melhor minha personalidade e como ela se relaciona 
+  com diferentes áreas de estudo para tomar uma
+  decisão informada sobre meu futuro
+  acadêmico e profissional.
+
+6) Nome: Mauricio
+
+  Desejo: Explorar alternativas de carreira
+  fora da área de tecnologia para garantir 
+  que estou fazendo a escolha certa.
+
+  Por que: Embora tenha interesse em tecnologia,
+  também estou aberto a outras possibilidades
+  de carreira. Gostaria de fazer uma avaliação
+  abrangente de meus interesses, habilidades 
+  e valores para ter certeza de que estou escolhendo
+  o caminho certo para o meu futuro.
+
+7) Nome: Carolina
+
+  Desejo: Receber recomendações
+  de cursos que me
+  permitam explorarminha
+  criatividade e paixões
+  pessoais.
+
+  Por que:  Embora esteja
+  interessada em
+  Administração, também
+  tenho um lado criativo e
+  gostaria de encontrar
+  cursos que me permitam
+  desenvolver minhas
+  habilidades artísticase
+  explorar minha
+  criatividade.Preciso de
+  orientação para descobrir
+  cursos que combinem
+  com meus interesses
+  pessoais e me permitam
+  explorar novas áreas
+  além da Administração.
+  
+
+  Desejo: Conhecer cursos que
+  ofereçam oportunidades
+  de networking e conexão
+  com profissionais da área.
+
 > **Links Úteis**:
 > - [Histórias de usuários com exemplos e template](https://www.atlassian.com/br/agile/project-management/user-stories)
 > - [Como escrever boas histórias de usuário (User Stories)](https://medium.com/vertice/como-escrever-boas-users-stories-hist%C3%B3rias-de-usu%C3%A1rios-b29c75043fac)
@@ -187,33 +298,26 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 
 |ID    | Descrição do Requisito  | Prioridade |
 |------|-----------------------------------------|----|
-|RF-001| Permitir que o usuário cadastre tarefas | ALTA | 
-|RF-002| Emitir um relatório de tarefas no mês   | MÉDIA |
+|RF-001| O site deve ser em formato de quiz | ALTA | 
+|RF-002| O site deve oferecer um catálogo de cursos para o usuário   | ALTA |
+|RF-003| O site deve ter um tópico de chats para usuários conversarem entre si a respeito do curso | BAIXO | 
+|RF-004| Informações a respeito dos curso | ALTA |
+|RF-005| O site deverá conter fontes para justificativa das perguntas/análises | MÉDIA |
+|RF-006| O site deverá ter um fluxo de usuário dinâmico e um número de perguntas que não torna a experiência do usuário massiva e chata | ALTA |
+|RF-007| O site deverá conter uma identidade visual única como diferencial dos outros sites com propostas similares | MÉDIA |
+
 
 
 ### Requisitos não Funcionais
 
 |ID     | Descrição do Requisito  |Prioridade |
 |-------|-------------------------|----|
-|RNF-001| O sistema deve ser responsivo para rodar em um dispositivos móvel | MÉDIA | 
-|RNF-002| Deve processar requisições do usuário em no máximo 3s |  BAIXA | 
+|RNF-001| O site deve pegar o email do usuário para manter contato | BAIXO | 
+|RNF-002| O site deve ser responsivo para melhor visualização do usuário | ALTA | 
+|RNF-003| O site poderá mostrar a grade curricular de faculdades renomadas (exemplo: puc minas) | MÉDIA | 
+|RNF-004| Deverá funcionar nos navegadores mais famosos | ALTA | 
 
-> Com base nas Histórias de Usuário, enumere os requisitos da sua
-> solução. Classifique esses requisitos em dois grupos:
->
-> - [Requisitos Funcionais (RF)](https://pt.wikipedia.org/wiki/Requisito_funcional):
->   correspondem a uma funcionalidade que deve estar presente na
->   plataforma (ex: cadastro de usuário).
->
-> - [Requisitos Não Funcionais (RNF)](https://pt.wikipedia.org/wiki/Requisito_n%C3%A3o_funcional):
->   correspondem a uma característica técnica, seja de usabilidade,
->   desempenho, confiabilidade, segurança ou outro (ex: suporte a
->   dispositivos iOS e Android).
->
-> Lembre-se que cada requisito deve corresponder à uma e somente uma
-> característica alvo da sua solução. Além disso, certifique-se de que
-> todos os aspectos capturados nas Histórias de Usuário foram cobertos.
-> 
+
 > **Links Úteis**:
 > 
 > - [O que são Requisitos Funcionais e Requisitos Não Funcionais?](https://codificar.com.br/requisitos-funcionais-nao-funcionais/)
@@ -249,13 +353,9 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 
 ## User Flow
 
-......  INCLUA AQUI O DIAGRAMA COM O FLUXO DO USUÁRIO NA APLICAÇÃO ......
+<img src="/pco-si-2024-1-tiaw-explorador-de-carreiras/docs/02 - relatório técnico/images/Flowchart Template.jpg">
 
-> Fluxo de usuário (User Flow) é uma técnica que permite ao desenvolvedor
-> mapear todo fluxo de telas do site ou app. Essa técnica funciona
-> para alinhar os caminhos e as possíveis ações que o usuário pode
-> fazer junto com os membros de sua equipe.
->
+
 > **Links Úteis**:
 > - [User Flow: O Quê É e Como Fazer?](https://medium.com/7bits/fluxo-de-usu%C3%A1rio-user-flow-o-que-%C3%A9-como-fazer-79d965872534)
 > - [User Flow vs Site Maps](http://designr.com.br/sitemap-e-user-flow-quais-as-diferencas-e-quando-usar-cada-um/)
@@ -268,13 +368,37 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 
 ## Wireframes
 
-......  INCLUA AQUI OS WIREFRAMES DAS TELAS DA APLICAÇÃO COM UM BREVE DESCRITIVO ......
+Tela - Home
+<img src="/pco-si-2024-1-tiaw-explorador-de-carreiras/docs/02 - relatório técnico/images/Home (1).png"> 
 
-> Wireframes são protótipos das telas da aplicação usados em design de interface para sugerir a
-> estrutura de um site web e seu relacionamentos entre suas
-> páginas. Um wireframe web é uma ilustração semelhante ao
-> layout de elementos fundamentais na interface.
-> 
+Tela - Sing In/ Sing Up
+<img src="/pco-si-2024-1-tiaw-explorador-de-carreiras/docs/02 - relatório técnico/images/Sing in.png">
+<img src="/pco-si-2024-1-tiaw-explorador-de-carreiras/docs/02 - relatório técnico/images/Sing Up.png">
+
+Tela - Instruções
+<img src="/pco-si-2024-1-tiaw-explorador-de-carreiras/docs/02 - relatório técnico/images/Informações.png">
+
+Tela - Pergunta
+<img src="/pco-si-2024-1-tiaw-explorador-de-carreiras/docs/02 - relatório técnico/images/Quiz.png">
+
+Tela - Resposta 
+<img src="/pco-si-2024-1-tiaw-explorador-de-carreiras/docs/02 - relatório técnico/images/Resultados.png">
+
+Tela - Cursos
+<img src="/pco-si-2024-1-tiaw-explorador-de-carreiras/docs/02 - relatório técnico/images/Cursos.png"> 
+
+Tela - Feedback
+<img src="/pco-si-2024-1-tiaw-explorador-de-carreiras/docs/02 - relatório técnico/images/Feedback.png">
+
+Tela - Contato
+<img src="/pco-si-2024-1-tiaw-explorador-de-carreiras/docs/02 - relatório técnico/images/Contato.png">
+
+Tela - Política de privacidade 
+<img src="/pco-si-2024-1-tiaw-explorador-de-carreiras/docs/02 - relatório técnico/images/Política de Privacidade.png">
+
+Tela - Equipe 
+<img src="/pco-si-2024-1-tiaw-explorador-de-carreiras/docs/02 - relatório técnico/images/Equipe.png"> 
+
 > **Links Úteis**:
 > - [Ferramentas de Wireframes](https://rockcontent.com/blog/wireframes/)
 > - [Figma](https://www.figma.com/)
@@ -288,18 +412,24 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 
 # Metodologia
 
-......  COLOQUE AQUI O SEU TEXTO ......
+Metodologia Scrum
 
-> Nesta parte do documento, você deve apresentar a metodologia 
-> adotada pelo grupo, descrevendo o processo de trabalho baseado nas metodologias ágeis, 
-> a divisão de papéis e tarefas, as ferramentas empregadas e como foi realizada a
-> gestão de configuração do projeto via GitHub.
->
-> Coloque detalhes sobre o processo de Design Thinking e a implementação do Framework Scrum seguido
-> pelo grupo. O grupo poderá fazer uso de ferramentas on-line para acompanhar
-> o andamento do projeto, a execução das tarefas e o status de desenvolvimento
-> da solução.
-> 
+ O Scrum é uma metodologia ágil amplamente adotada no desenvolvimento de software,
+ destacando a importância da colaboração, entrega contínua e adaptação rápida às
+ mudanças. As equipes que utilizam o Scrum são auto gerenciáveis e possuem habilidades
+ multifuncionais. Dentro desse contexto, existem três papeis fundamentais: o Product Owner,
+ responsável por representar os interesses dos clientes; o Scrum Master, cujo papel é facilitar
+ o processo de desenvolvimento; e o Time Scrum, encarregado de entregar o produto final. O
+ trabalho é dividido em iterações chamadas Sprints, que têm duração de uma a quatro
+ semanas. Durante cada Sprint, o foco da equipe está em entregar um incremento do
+ produto. No início de cada Sprint, são selecionadas as tarefas prioritárias a serem
+ realizadas. As reuniões diárias de sincronização, conhecidas como Daily Standup, são
+ realizadas para manter todos os membros da equipe alinhados. Ao final de cada Sprint,
+ ocorre uma revisão do produto com os stakeholders e uma retrospectiva para identificar
+ oportunidades de melhoria no processo. O Scrum promove a transparência, inspeção e
+ adaptação contínua, permitindo que as equipes entreguem valor ao cliente de maneira
+ eficiente e flexível
+
 > **Links Úteis**:
 > - [Tutorial Trello](https://trello.com/b/8AygzjUA/tutorial-trello)
 > - [Gestão ágil de projetos com o Trello](https://www.youtube.com/watch?v=1o9BOMAKBRE)
@@ -308,10 +438,15 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 
 ## Divisão de Papéis
 
-......  COLOQUE AQUI O SEU TEXTO ......
+Organização da equipe e divisão de papéis
 
-> Apresente a divisão de papéis e tarefas entre os membros do grupo.
->
+* Allef Henrique Costa Leandro: Definição de problemas, entrevistas, documentação e slides
+* Eduardo Versiani de Melo Penna: Matriz CSD, Definição de problemas, entrevistas, wireframe, slides, correção na documentação e commit no GitHub
+* Gustavo Henrique Soares da Silva: Definição de problemas, entrevistas, wireframe e slides
+* João Pedro Barbosa Oliveira: Definição de problemas, entrevistas, documentação e slides
+* João Pedro dos Santos Martins: Definição de problemas, entrevistas, personas, slides e commit no GitHub
+* Victor Bryan Ferreira Lopes: Definição de problemas, entrevistas e slides
+
 > **Links Úteis**:
 > - [11 Passos Essenciais para Implantar Scrum no seu Projeto](https://mindmaster.com.br/scrum-11-passos/)
 > - [Scrum em 9 minutos](https://www.youtube.com/watch?v=XfvQWnRgxG0)
@@ -323,10 +458,10 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 
 | Ambiente  | Plataforma              |Link de Acesso |
 |-----------|-------------------------|---------------|
-|Processo de Design Thinkgin  | Miro |  https://miro.com/XXXXXXX | 
-|Repositório de código | GitHub | https://github.com/XXXXXXX | 
+|Processo de Design Thinkgin  | Miro |  https://miro.com/app/board/uXjVNjOtyy0=/ | 
+|Repositório de código | GitHub | https://github.com/ICEI-PUC-Minas-PCO-SI/pco-si-2024-1-tiaw-explorador-de-carreiras.git | 
 |Hospedagem do site | Heroku |  https://XXXXXXX.herokuapp.com | 
-|Protótipo Interativo | MavelApp ou Figma | https://figma.com/XXXXXXX | 
+|Protótipo Interativo | Figma | https://www.figma.com/file/v3zb7hO8J6ErXTzt2OBlp1/Untitled?type=design&node-id=0-1&mode=design&t=zSnYxN8LjdfrdWnp-0 | 
 
 >
 > Liste as ferramentas empregadas no desenvolvimento do
@@ -353,7 +488,8 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 
 ## Controle de Versão
 
-......  COLOQUE AQUI O SEU TEXTO ......
+Foi feito o commit na master, por apenas 1 membro do grupo para evitar eventuais erros, 
+já que estamos no processo de aprendizado
 
 > Discuta como a configuração do projeto foi feita na ferramenta de
 > versionamento escolhida. Exponha como a gerência de tags, merges,
