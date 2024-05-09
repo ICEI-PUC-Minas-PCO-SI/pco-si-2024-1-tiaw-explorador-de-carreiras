@@ -1,0 +1,203 @@
+
+{
+    "questions": [
+        {
+            "id": 1,   
+            "questao": "Qual dessas áreas de estudo desperta mais seu interesse?",
+            "respostas": [
+                {"A": "Ciências Exatas"},
+                {"B": "Ciências Humanas"},
+                {"C": "Ciências Biológicas"},
+                {"D": "Artes e Design"}
+            ]  
+        },
+        {
+            "id": 2,   
+            "questao": "Qual sua maior qualidade?",
+            "respostas": [
+                {"A": "Empatia"},
+                {"B": "Organização"},
+                {"C": "Facilidade com a matemática"},
+                {"D": "Manuzeio da tecnologia"}
+            ]  
+        },
+        {
+            "id": 3,   
+            "questao": "Que tipo de ambiente de aprendizado você prefere?",
+            "respostas": [
+                {"A": "Teórico e Acadêmico"},
+                {"B": "Prático e Experencial"},
+                {"C": "Colaborativo e Interativo"},
+                {"D": "Independente e Auto-dirigido"}
+            ]  
+        },
+        {
+            "id": 4,   
+            "questao": "Você prefere trabalhar em equipe ou de forma independente?",
+            "respostas": [
+                {"A": "Trabalhar em Equipe"},
+                {"B": "Trabalhar de Forma Independente"},
+                {"C": "Depende da Situação"},
+                {"D": "Não tenho Preferência"}
+            ]  
+        },
+        {
+            "id": 5,   
+            "questao": "Você gosta de ensinar?",
+            "respostas": [
+                {"A": "Muito"},
+                {"B": "Mais ou menos"},
+                {"C": "Pouco"},
+                {"D": "De jeito nenhum"}
+            ]  
+        },
+        {
+            "id": 6,   
+            "questao": "Qual é o seu nível de interesse em cursos que enfatizam fortemente a pesquisa?",
+            "respostas": [
+                {"A": "Alto interesse"},
+                {"B": "Interesse moderado"},
+                {"C": "Baixo interesse"},
+                {"D": "Nenhum interesse"}
+            ]  
+        },
+        {
+            "id": 7,   
+            "questao": "Qual cacterística mais se assemelha com seu perfil?",
+            "respostas": [
+                {"A": "Extroversão"},
+                {"B": "Instabilidade emocional"},
+                {"C": "Cautela"},
+                {"D": "Abertura à experiência"}
+            ]  
+        },
+        {
+            "id": 8,   
+            "questao": "Você se considera uma pessoa:",
+            "respostas": [
+                {"A": "Extrovertida"},
+                {"B": "Introvertida"},
+                {"C": "Extrovertida apenas no ciclo de amizade"},
+                {"D": "Comunicativa, mas introvertida"}
+            ]  
+        },
+        {
+            "id": 9,   
+            "questao": "Você prefere abordagens de ensino tradicionais ou inovadoras?",
+            "respostas": [
+                {"A": "Tradicional"},
+                {"B": "Inovador"},
+                {"C": "Não tenho preferência"}
+            ]  
+        },
+        {
+            "id": 10,   
+            "questao": "Qual é o seu nível de interesse em disciplinas sociais e ambientais?",
+            "respostas": [
+                {"A": "Muito"},
+                {"B": "Mais ou menos"},
+                {"C": "Pouco"},
+                {"D": "Nenhum"}
+            ]  
+        },
+        {
+            "id": 11,   
+            "questao": "Em que período do dia você prefere dedicar-se aos estudos?",
+            "respostas": [
+                {"A": "Integral"},
+                {"B": "Noturno"},
+                {"C": "Matutino"},
+                {"D": "Flexível"}
+            ]  
+        },
+        {
+            "id": 12,   
+            "questao": "Quão importante é para você ter a oportunidade de estágios durante o curso?",
+            "respostas": [
+                {"A": "Muito Importante"},
+                {"B": "Moderadamente Importante"},
+                {"C": "Pouco Importante"},
+                {"D": "Não é Importante"}
+            ]  
+        },
+        {
+            "id": 13,   
+            "questao": "Você prefere cursos com áreas de atuação específicas ou mais generalistas?",
+            "respostas": [
+                {"A": "Específicas"},
+                {"B": "Generalistas"},
+                {"C": "Equilibradas entre específicas e generalistas"},
+                {"D": "Não tenho preferência"}
+            ]  
+        },
+        {
+            "id": 14,   
+            "questao": "Quanto valor você atribui à reputação do curso?",
+            "respostas": [
+                {"A": "Muito"},
+                {"B": "Moderadamente"},
+                {"C": "Pouco"},
+                {"D": "Não é Importante"}
+            ]  
+        },
+        {
+            "id": 15,   
+            "questao": "Você tem preferência por cursos com forte ênfase em empreendedorismo?",
+            "respostas": [
+                {"A": "Sim, definitivamente"},
+                {"B": "Talvez, dependendo do curso"},
+                {"C": "Não, prefiro cursos tradicionais"},
+                {"D": "Não tenho certeza"}
+            ]  
+        },
+        {
+            "id": 16,   
+            "questao": "Você tem preferência por cursos com grande ênfase em tecnologia e inovação?",
+            "respostas": [
+                {"A": "Sim, definitivamente"},
+                {"B": "Talvez, dependendo do curso"},
+                {"C": "Não, prefiro cursos tradicionais"},
+                {"D": "Não tenho certeza"}
+            ]  
+        },
+        {
+            "id": 17,   
+            "questao": "Quão importante é para você ter laboratórios na instituição?",
+            "respostas": [
+                {"A": "Extremamente importante"},
+                {"B": "Muito importante"},
+                {"C": "Moderadamente importante"},
+                {"D": "Pouco importante"}
+            ]  
+        },
+        {
+            "id": 18,   
+            "questao": "Você prefere cursos com muitas oportunidades de publicação?",
+            "respostas": [
+                {"A": "Sim, definitivamente"},
+                {"B": "Talvez, dependendo do curso"},
+                {"C": "Não, prefiro foco em outras atividades"},
+                {"D": "Não tenho certeza"}
+            ]  
+        },
+        {
+            "id": 19,   
+            "questao": "Você prefere cursos com forte ênfase em ética e responsabilidade social?",
+            "respostas": [
+                {"A": "Sim, definitivamente"},
+                {"B": "Talvez, dependendo do curso"},
+                {"C": "Não, prefiro foco em outras áreas"}
+            ]  
+        },
+        {
+            "id": 20,   
+            "questao": "Você tem preferência por cursos que ofereçam oportunidades de intercâmbio ou estudo no exterior?",
+            "respostas": [
+                {"A": "Sim, definitivamente"},
+                {"B": "Talvez, dependendo do curso"},
+                {"C": "Não, prefiro estudar localmente"},
+                {"D": "Não tenho certeza"}
+            ]  
+        }
+    ]
+}
