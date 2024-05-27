@@ -85,7 +85,7 @@ main {
     margin: 0px 400px;
 }
 #tudo {
-    display: flex;
+    display: block;
     flex-direction: column;
     align-items: center;
     justify-content: center;
@@ -98,7 +98,7 @@ main {
     font-family: "Ubuntu", sans-serif;
     color: white;
     text-align: center;
-    padding-bottom: 20px;
+    padding-top: 0px;
     padding-right: 80px;
     padding-left: 80px;
 }
@@ -106,6 +106,7 @@ main {
     display: grid;
     grid-template-columns: repeat(2, 1fr); 
     grid-template-rows: repeat(2, auto); 
+    place-items: center;
     padding-top: 15px;
     gap: 40px;
 }
@@ -185,6 +186,41 @@ footer a:hover {
 footer li {
     font-size: 16px;
 }
+
+/*Botões de cima*/
+
+.cima {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 40px;
+    padding-left: 40px;
+    padding-top: 10px;
+}
+#mostradorPergunta {
+    color: white;
+    font-family: "Ubuntu", sans-serif;
+    font-size: 40px;
+    font-weight: 500;
+}
+#voltar {
+    border: none;
+    background-color: #31303D;
+    color: white;
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    cursor: pointer;
+}
+#seta {
+    font-weight: 600;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+
+
 
 /*RESPOSIVIDADE*/
 /*1600px*/
