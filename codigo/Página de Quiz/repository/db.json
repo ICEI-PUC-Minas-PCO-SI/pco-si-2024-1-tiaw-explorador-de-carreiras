@@ -1,0 +1,671 @@
+
+{
+    "questions": [
+        {
+            "id": 1,   
+            "questao": "Qual dessas áreas de estudo desperta mais seu interesse?",
+            "respostas": [
+                {"A": "Ciências Exatas", "Valor": [
+                    {"1": 10},
+                    {"2": 50},
+                    {"3": 30},
+                    {"4": 5},
+                    {"5": 5}
+                ]},
+                {"B": "Ciências Humanas", "Valor": [
+                    {"1": 10},
+                    {"2": 5},
+                    {"3": 5},
+                    {"4": 5},
+                    {"5": 75}
+                ]},
+                {"C": "Ciências Biológicas", "Valor": [
+                    {"1": 5},
+                    {"2": 5},
+                    {"3": 5},
+                    {"4": 80},
+                    {"5": 5}
+                ]},
+                {"D": "Artes e Design", "Valor": [
+                    {"1": 10},
+                    {"2": 5},
+                    {"3": 5},
+                    {"4": 5},
+                    {"5": 75}
+                ]}
+            ]  
+        },
+        {
+            "id": 2,   
+            "questao": "Qual sua maior qualidade?",
+            "respostas": [
+                {"A": "Empatia", "Valor": [
+                    {"1": 20},
+                    {"2": 5},
+                    {"3": 5},
+                    {"4": 50},
+                    {"5": 20}
+                ]},
+                {"B": "Organização", "Valor": [
+                    {"1": 40},
+                    {"2": 10},
+                    {"3": 20},
+                    {"4": 20},
+                    {"5": 10}
+                ]},
+                {"C": "Facilidade com a matemática", "Valor": [
+                    {"1": 10},
+                    {"2": 30},
+                    {"3": 50},
+                    {"4": 5},
+                    {"5": 5}
+                ]},
+                {"D": "Manuzeio da tecnologia", "Valor": [
+                    {"1": 10},
+                    {"2": 50},
+                    {"3": 30},
+                    {"4": 5},
+                    {"5": 5}
+                ]}
+            ]  
+        },
+        {
+            "id": 3,   
+            "questao": "Que tipo de ambiente de aprendizado você prefere?",
+            "respostas": [
+                {"A": "Teórico e Acadêmico", "Valor": [
+                    {"1": 20},
+                    {"2": 20},
+                    {"3": 10},
+                    {"4": 30},
+                    {"5": 20}
+                ]},
+                {"B": "Prático e Experencial", "Valor": [
+                    {"1": 20},
+                    {"2": 20},
+                    {"3": 30},
+                    {"4": 20},
+                    {"5": 10}
+                ]},
+                {"C": "Colaborativo e Interativo", "Valor": [
+                    {"1": 25},
+                    {"2": 15},
+                    {"3": 15},
+                    {"4": 20},
+                    {"5": 25}
+                ]},
+                {"D": "Independente e Auto-dirigido", "Valor": [
+                    {"1": 15},
+                    {"2": 25},
+                    {"3": 20},
+                    {"4": 10},
+                    {"5": 30}
+                ]}
+            ]  
+        },
+        {
+            "id": 4,   
+            "questao": "Você prefere trabalhar em equipe ou de forma independente?",
+            "respostas": [
+                {"A": "Trabalhar em Equipe", "Valor": [
+                    {"1": 30},
+                    {"2": 15},
+                    {"3": 15},
+                    {"4": 20},
+                    {"5": 20}
+                ]},
+                {"B": "Trabalhar de Forma Independente", "Valor": [
+                    {"1": 5},
+                    {"2": 35},
+                    {"3": 30},
+                    {"4": 10},
+                    {"5": 20}
+                ]},
+                {"C": "Depende da Situação", "Valor": [
+                    {"1": 20},
+                    {"2": 20},
+                    {"3": 20},
+                    {"4": 20},
+                    {"5": 20}
+                ]},
+                {"D": "Não tenho Preferência", "Valor": [
+                    {"1": 20},
+                    {"2": 20},
+                    {"3": 20},
+                    {"4": 20},
+                    {"5": 20}
+                ]}
+            ]  
+        },
+        {
+            "id": 5,   
+            "questao": "Você gosta de ensinar?",
+            "respostas": [
+                {"A": "Muito", "Valor": [
+                    {"1": 25},
+                    {"2": 10},
+                    {"3": 10},
+                    {"4": 20},
+                    {"5": 35}
+                ]},
+                {"B": "Mais ou menos", "Valor": [
+                    {"1": 25},
+                    {"2": 15},
+                    {"3": 15},
+                    {"4": 20},
+                    {"5": 25}
+                ]},
+                {"C": "Pouco", "Valor": [
+                    {"1": 10},
+                    {"2": 25},
+                    {"3": 25},
+                    {"4": 20},
+                    {"5": 20}
+                ]},
+                {"D": "De jeito nenhum", "Valor": [
+                    {"1": 10},
+                    {"2": 35},
+                    {"3": 25},
+                    {"4": 20},
+                    {"5": 10}
+                ]}
+            ]  
+        },
+        {
+            "id": 6,   
+            "questao": "Qual é o seu nível de interesse em cursos que enfatizam fortemente a pesquisa?",
+            "respostas": [
+                {"A": "Alto interesse", "Valor": [
+                    {"1": 10},
+                    {"2": 25},
+                    {"3": 25},
+                    {"4": 30},
+                    {"5": 10}
+                ]},
+                {"B": "Interesse moderado", "Valor": [
+                    {"1": 20},
+                    {"2": 25},
+                    {"3": 20},
+                    {"4": 20},
+                    {"5": 15}
+                ]},
+                {"C": "Baixo interesse", "Valor": [
+                    {"1": 30},
+                    {"2": 15},
+                    {"3": 15},
+                    {"4": 10},
+                    {"5": 30}
+                ]},
+                {"D": "Nenhum interesse", "Valor": [
+                    {"1": 35},
+                    {"2": 10},
+                    {"3": 15},
+                    {"4": 5},
+                    {"5": 35}
+                ]}
+            ]  
+        },
+        {
+            "id": 7,   
+            "questao": "Qual cacterística mais se assemelha com seu perfil?",
+            "respostas": [
+                {"A": "Extroversão", "Valor": [
+                    {"1": 30},
+                    {"2": 15},
+                    {"3": 5},
+                    {"4": 15},
+                    {"5": 35}
+                ]},
+                {"B": "Instabilidade emocional", "Valor": [
+                    {"1": 15},
+                    {"2": 25},
+                    {"3": 35},
+                    {"4": 5},
+                    {"5": 20}
+                ]},
+                {"C": "Cautela", "Valor": [
+                    {"1": 25},
+                    {"2": 20},
+                    {"3": 15},
+                    {"4": 35},
+                    {"5": 5}
+                ]},
+                {"D": "Abertura à experiência", "Valor": [
+                    {"1": 30},
+                    {"2": 15},
+                    {"3": 15},
+                    {"4": 25},
+                    {"5": 15}
+                ]}
+            ]  
+        },
+        {
+            "id": 8,   
+            "questao": "Você se considera uma pessoa:",
+            "respostas": [
+                {"A": "Extrovertida", "Valor": [
+                    {"1": 25},
+                    {"2": 15},
+                    {"3": 10},
+                    {"4": 20},
+                    {"5": 30}
+                ]},
+                {"B": "Introvertida", "Valor": [
+                    {"1": 15},
+                    {"2": 25},
+                    {"3": 35},
+                    {"4": 15},
+                    {"5": 10}
+                ]},
+                {"C": "Extrovertida apenas no ciclo de amizade", "Valor": [
+                    {"1": 20},
+                    {"2": 25},
+                    {"3": 20},
+                    {"4": 20},
+                    {"5": 15}
+                ]},
+                {"D": "Comunicativa, mas introvertida", "Valor": [
+                    {"1": 25},
+                    {"2": 15},
+                    {"3": 15},
+                    {"4": 20},
+                    {"5": 25}
+                ]}
+            ]  
+        },
+        {
+            "id": 9,   
+            "questao": "Você prefere abordagens de ensino tradicionais ou inovadoras?",
+            "respostas": [
+                {"A": "Tradicional", "Valor": [
+                    {"1": 30},
+                    {"2": 25},
+                    {"3": 10},
+                    {"4": 25},
+                    {"5": 10}
+                ]},
+                {"B": "Inovador", "Valor": [
+                    {"1": 10},
+                    {"2": 15},
+                    {"3": 30},
+                    {"4": 20},
+                    {"5": 25}
+                ]},
+                {"C": "Não tenho preferência", "Valor": [
+                    {"1": 20},
+                    {"2": 20},
+                    {"3": 20},
+                    {"4": 20},
+                    {"5": 20}
+                ]}
+            ]  
+        },
+        {
+            "id": 10,   
+            "questao": "Qual é o seu nível de interesse em disciplinas sociais e ambientais?",
+            "respostas": [
+                {"A": "Muito", "Valor": [
+                    {"1": 20},
+                    {"2": 15},
+                    {"3": 5},
+                    {"4": 30},
+                    {"5": 30}
+                ]},
+                {"B": "Mais ou menos", "Valor": [
+                    {"1": 20},
+                    {"2": 15},
+                    {"3": 15},
+                    {"4": 25},
+                    {"5": 25}
+                ]},
+                {"C": "Pouco", "Valor": [
+                    {"1": 15},
+                    {"2": 20},
+                    {"3": 35},
+                    {"4": 15},
+                    {"5": 15}
+                ]},
+                {"D": "Nenhum", "Valor": [
+                    {"1": 20},
+                    {"2": 15},
+                    {"3": 40},
+                    {"4": 10},
+                    {"5": 15}
+                ]}
+            ]  
+        },
+        {
+            "id": 11,   
+            "questao": "Em que período do dia você prefere dedicar-se aos estudos?",
+            "respostas": [
+                {"A": "Integral", "Valor": [
+                    {"1": 15},
+                    {"2": 15},
+                    {"3": 20},
+                    {"4": 40},
+                    {"5": 10}
+                ]},
+                {"B": "Noturno", "Valor": [
+                    {"1": 20},
+                    {"2": 25},
+                    {"3": 30},
+                    {"4": 15},
+                    {"5": 10}
+                ]},
+                {"C": "Matutino", "Valor": [
+                    {"1": 20},
+                    {"2": 15},
+                    {"3": 10},
+                    {"4": 25},
+                    {"5": 30}
+                ]},
+                {"D": "Flexível", "Valor": [
+                    {"1": 15},
+                    {"2": 15},
+                    {"3": 25},
+                    {"4": 25},
+                    {"5": 20}
+                ]}
+            ]  
+        },
+        {
+            "id": 12,   
+            "questao": "Quão importante é para você ter a oportunidade de estágios durante o curso?",
+            "respostas": [
+                {"A": "Muito Importante", "Valor": [
+                    {"1": 20},
+                    {"2": 25},
+                    {"3": 30},
+                    {"4": 20},
+                    {"5": 5}
+                ]},
+                {"B": "Moderadamente Importante", "Valor": [
+                    {"1": 20},
+                    {"2": 20},
+                    {"3": 25},
+                    {"4": 20},
+                    {"5": 15}
+                ]},
+                {"C": "Pouco Importante", "Valor": [
+                    {"1": 25},
+                    {"2": 15},
+                    {"3": 15},
+                    {"4": 20},
+                    {"5": 25}
+                ]},
+                {"D": "Não é Importante", "Valor": [
+                    {"1": 20},
+                    {"2": 20},
+                    {"3": 15},
+                    {"4": 15},
+                    {"5": 30}
+                ]}
+            ]  
+        },
+        {
+            "id": 13,   
+            "questao": "Você prefere cursos com áreas de atuação específicas ou mais generalistas?",
+            "respostas": [
+                {"A": "Específicas", "Valor": [
+                    {"1": 10},
+                    {"2": 30},
+                    {"3": 15},
+                    {"4": 15},
+                    {"5": 30}
+                ]},
+                {"B": "Generalistas", "Valor": [
+                    {"1": 10},
+                    {"2": 15},
+                    {"3": 30},
+                    {"4": 30},
+                    {"5": 15}
+                ]},
+                {"C": "Equilibradas entre específicas e generalistas", "Valor": [
+                    {"1": 15},
+                    {"2": 20},
+                    {"3": 25},
+                    {"4": 25},
+                    {"5": 15}
+                ]},
+                {"D": "Não tenho preferência", "Valor": [
+                    {"1": 20},
+                    {"2": 20},
+                    {"3": 20},
+                    {"4": 20},
+                    {"5": 20}
+                ]}
+            ]  
+        },
+        {
+            "id": 14,   
+            "questao": "Quanto valor você atribui à reputação do curso?",
+            "respostas": [
+                {"A": "Muito", "Valor": [
+                    {"1": 25},
+                    {"2": 15},
+                    {"3": 15},
+                    {"4": 25},
+                    {"5": 20}
+                ]},
+                {"B": "Moderadamente", "Valor": [
+                    {"1": 20},
+                    {"2": 20},
+                    {"3": 15},
+                    {"4": 25},
+                    {"5": 20}
+                ]},
+                {"C": "Pouco", "Valor": [
+                    {"1": 15},
+                    {"2": 25},
+                    {"3": 25},
+                    {"4": 10},
+                    {"5": 25}
+                ]},
+                {"D": "Não é Importante", "Valor": [
+                    {"1": 15},
+                    {"2": 25},
+                    {"3": 35},
+                    {"4": 5},
+                    {"5": 25}
+                ]}
+            ]  
+        },
+        {
+            "id": 15,   
+            "questao": "Você tem preferência por cursos com forte ênfase em empreendedorismo?",
+            "respostas": [
+                {"A": "Sim, definitivamente", "Valor": [
+                    {"1": 40},
+                    {"2": 15},
+                    {"3": 20},
+                    {"4": 15},
+                    {"5": 10}
+                ]},
+                {"B": "Talvez, dependendo do curso", "Valor": [
+                    {"1": 30},
+                    {"2": 15},
+                    {"3": 30},
+                    {"4": 15},
+                    {"5": 10}
+                ]},
+                {"C": "Não, prefiro cursos tradicionais", "Valor": [
+                    {"1": 10},
+                    {"2": 20},
+                    {"3": 15},
+                    {"4": 25},
+                    {"5": 30}
+                ]},
+                {"D": "Não tenho certeza", "Valor": [
+                    {"1": 10},
+                    {"2": 20},
+                    {"3": 20},
+                    {"4": 25},
+                    {"5": 25}
+                ]}
+            ]  
+        },
+        {
+            "id": 16,   
+            "questao": "Você tem preferência por cursos com grande ênfase em tecnologia e inovação?",
+            "respostas": [
+                {"A": "Sim, definitivamente", "Valor": [
+                    {"1": 5},
+                    {"2": 30},
+                    {"3": 40},
+                    {"4": 20},
+                    {"5": 5}
+                ]},
+                {"B": "Talvez, dependendo do curso", "Valor": [
+                    {"1": 10},
+                    {"2": 30},
+                    {"3": 25},
+                    {"4": 25},
+                    {"5": 10}
+                ]},
+                {"C": "Não, prefiro cursos tradicionais", "Valor": [
+                    {"1": 30},
+                    {"2": 10},
+                    {"3": 10},
+                    {"4": 20},
+                    {"5": 30}
+                ]},
+                {"D": "Não tenho certeza", "Valor": [
+                    {"1": 30},
+                    {"2": 15},
+                    {"3": 10},
+                    {"4": 15},
+                    {"5": 30}
+                ]}
+            ]  
+        },
+        {
+            "id": 17,   
+            "questao": "Quão importante é para você ter laboratórios na instituição?",
+            "respostas": [
+                {"A": "Extremamente importante", "Valor": [
+                    {"1": 10},
+                    {"2": 25},
+                    {"3": 30},
+                    {"4": 25},
+                    {"5": 10}
+                ]},
+                {"B": "Muito importante", "Valor": [
+                    {"1": 15},
+                    {"2": 25},
+                    {"3": 25},
+                    {"4": 25},
+                    {"5": 10}
+                ]},
+                {"C": "Moderadamente importante", "Valor": [
+                    {"1": 25},
+                    {"2": 20},
+                    {"3": 15},
+                    {"4": 10},
+                    {"5": 30}
+                ]},
+                {"D": "Pouco importante", "Valor": [
+                    {"1": 35},
+                    {"2": 15},
+                    {"3": 10},
+                    {"4": 5},
+                    {"5": 35}
+                ]}
+            ]  
+        },
+        {
+            "id": 18,   
+            "questao": "Você prefere cursos com muitas oportunidades de publicação?",
+            "respostas": [
+                {"A": "Sim, definitivamente", "Valor": [
+                    {"1": 30},
+                    {"2": 10},
+                    {"3": 10},
+                    {"4": 20},
+                    {"5": 30}
+                ]},
+                {"B": "Talvez, dependendo do curso", "Valor": [
+                    {"1": 25},
+                    {"2": 15},
+                    {"3": 15},
+                    {"4": 20},
+                    {"5": 25}
+                ]},
+                {"C": "Não, prefiro foco em outras atividades", "Valor": [
+                    {"1": 10},
+                    {"2": 30},
+                    {"3": 30},
+                    {"4": 20},
+                    {"5": 10}
+                ]},
+                {"D": "Não tenho certeza", "Valor": [
+                    {"1": 15},
+                    {"2": 25},
+                    {"3": 25},
+                    {"4": 20},
+                    {"5": 15}
+                ]}
+            ]  
+        },
+        {
+            "id": 19,   
+            "questao": "Você prefere cursos com forte ênfase em ética e responsabilidade social?",
+            "respostas": [
+                {"A": "Sim, definitivamente", "Valor": [
+                    {"1": 25},
+                    {"2": 15},
+                    {"3": 5},
+                    {"4": 35},
+                    {"5": 20}
+                ]},
+                {"B": "Talvez, dependendo do curso", "Valor": [
+                    {"1": 25},
+                    {"2": 15},
+                    {"3": 10},
+                    {"4": 25},
+                    {"5": 25}
+                ]},
+                {"C": "Não, prefiro foco em outras áreas", "Valor": [
+                    {"1": 15},
+                    {"2": 25},
+                    {"3": 35},
+                    {"4": 5},
+                    {"5": 20}
+                ]}
+            ]  
+        },
+        {
+            "id": 20,   
+            "questao": "Você tem preferência por cursos que ofereçam oportunidades de intercâmbio ou estudo no exterior?",
+            "respostas": [
+                {"A": "Sim, definitivamente", "Valor": [
+                    {"1": 20},
+                    {"2": 15},
+                    {"3": 15},
+                    {"4": 25},
+                    {"5": 25}
+                ]},
+                {"B": "Talvez, dependendo do curso", "Valor": [
+                    {"1": 20},
+                    {"2": 20},
+                    {"3": 15},
+                    {"4": 20},
+                    {"5": 25}
+                ]},
+                {"C": "Não, prefiro estudar localmente", "Valor": [
+                    {"1": 20},
+                    {"2": 20},
+                    {"3": 20},
+                    {"4": 20},
+                    {"5": 20}
+                ]},
+                {"D": "Não tenho certeza", "Valor": [
+                    {"1": 20},
+                    {"2": 20},
+                    {"3": 20},
+                    {"4": 20},
+                    {"5": 20}
+                ]}
+            ]  
+        }
+    ]
+}

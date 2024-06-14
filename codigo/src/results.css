@@ -1,0 +1,54 @@
+
+
+.pagGrafico {
+    font-family: "Ubuntu", sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+a {
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+
+main {
+    min-height: 100vh;
+  }
+
+.results-content{
+ 
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    overflow: auto;
+}
+
+.result-button{
+    background-color: #3154B8;
+    margin: 20px;
+    padding: 10px;
+    border-radius: 9px;
+}
+
+#chart-container{
+    width: 100%;
+}
+
+#results-chart{
+    width: 100%;
+}
+
+.results-text{
+    width: 60%;
+}
+
+
+
+.is-hidden{
+   display: none;
+}
+

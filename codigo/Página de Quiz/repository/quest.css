@@ -1,0 +1,474 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+/* /Padrão/ */
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Ubuntu", sans-serif;
+}
+p {
+    font-family: "Raleway", sans-serif;
+}
+a {
+    text-decoration: none;
+}
+li {
+    list-style: none;
+}
+
+/* /Header padrão/ */
+
+header {
+    margin: 0px 300px;
+    background-color: #31303D;
+    height: 140px;
+    padding: 0px 40px;
+    padding-top: 20px;
+    border-end-start-radius: 15px;
+    border-end-end-radius: 15px;
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header a {
+    color: white;
+    transition: all 0.3s ease;
+}
+header a:hover {
+    color: #5285A4;
+}
+.botao ul {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+header li {
+    font-size: 18px;
+}
+header h5 {
+    font-size: 13px;
+}
+.img img {
+    height: 110px;
+}
+header button {
+    cursor: pointer;
+    border: none;
+    padding: 0px 10px;
+    background-color: #3154B8;
+    color: white;
+    border-radius: 7px;
+    box-shadow: none;
+    transition: all 0.3s ease;
+}
+header button:hover {
+    background-color: #7CB6C2;
+    color: white;
+    box-shadow: 0px 5px 5px 0px rgba(255, 255, 255, 0.258);
+}
+.acesso {
+    margin-top: 3px;
+    height: 40px;
+    padding: 0px 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+/*MAIN*/
+
+main {
+    margin: 0px 400px;
+}
+#tudo {
+    display: block;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 400px;
+    background-color: #31303D;
+    border-radius: 25px;
+}
+
+#tudo h1{
+    font-family: "Ubuntu", sans-serif;
+    color: white;
+    text-align: center;
+    padding-top: 0px;
+    padding-right: 80px;
+    padding-left: 80px;
+}
+#respostas {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); 
+    grid-template-rows: repeat(2, auto); 
+    place-items: center;
+    padding-top: 15px;
+    gap: 40px;
+}
+#respostas button{
+    height: 70px;
+    width: 350px;
+    background-color: #5285A4;
+    border-radius: 15px;
+    color: white;
+    border: none;
+    font-size: 17px;
+    font-family: "Raleway", sans-serif;
+    font-weight: 500;
+    box-shadow: none;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+#respostas button:hover{
+    height: 70px;
+    width: 350px;
+    background-color: #B8D7AD;
+    border-radius: 15px;
+    color: black;
+    border: none;
+    font-size: 18px;
+    font-family: "Raleway", sans-serif;
+    font-weight: 500;
+    box-shadow: 0px 5px 5px 0px rgba(0, 0, 0, 0.258);
+}
+.traco {
+    background-color: #31303D;
+    height: 100px;
+    margin-right: 49.3%;
+    margin-left: 49.3%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#prox {
+    display: none;
+}
+footer {
+    margin-top: 93px;
+    margin-right: 300px;
+    margin-left: 300px;
+    background-color: #31303D;
+    height: 135px;
+    padding-top: 20px;
+    border-start-start-radius: 15px;
+    border-start-end-radius: 15px;
+}
+.rodape {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 40px;
+}
+footer a {
+    color: white;
+    transition: all 0.3s ease;
+}
+footer a:hover {
+    color: #5285A4;
+}
+.resto ul {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+.direitos {
+    background-color: #31303D;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+footer li {
+    font-size: 16px;
+}
+
+/*Botões de cima*/
+
+.cima {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 40px;
+    padding-left: 40px;
+    padding-top: 10px;
+}
+#mostradorPergunta {
+    color: white;
+    font-family: "Ubuntu", sans-serif;
+    font-size: 40px;
+    font-weight: 500;
+}
+#voltar {
+    border: none;
+    background-color: #31303D;
+    color: white;
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    cursor: pointer;
+}
+#seta {
+    font-weight: 600;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+
+
+
+/*RESPOSIVIDADE*/
+/*1600px*/
+@media screen and (max-width: 1600px) {
+    header {
+        margin: 0px 200px;
+    }
+    main {
+        margin: 0px 300px;
+    }
+    .traco {
+        background-color: #31303D;
+        height: 100px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    footer {
+        margin-top: 90px;
+        margin-right: 200px;
+        margin-left: 200px; 
+    }  
+}
+
+/*1440*/
+@media screen and (max-width: 1440px) {
+    header {
+        margin: 0px 100px;
+    }
+    main {
+        margin: 0px 200px;
+    }
+    footer {
+        margin-top: 90px;
+        margin-right: 100px;
+        margin-left: 100px; 
+        height: 120px;
+    }  
+}
+
+/*1200*/
+@media screen and (max-width: 1200px) {
+    header {
+        margin: 0px 50px;
+    }
+    main {
+        margin: 0px 150px;
+    }
+    footer {
+        margin-top: 90px;
+        margin-right: 50px;
+        margin-left: 50px; 
+        height: 120px;
+    }  
+    #respostas button{
+        height: 60px;
+        width: 300px;
+        background-color: #5285A4;
+        border-radius: 15px;
+        color: white;
+        border: none;
+        font-size: 15px;
+    }
+    #respostas button:hover{
+        height: 60px;
+        width: 300px;
+        font-size: 16px;
+    }
+    #tudo h1{
+        font-size: 30px;
+        text-align: center;
+        padding-bottom: 10px;
+        padding-right: 40px;
+        padding-left: 40px;
+    } 
+}
+
+/*992*/
+@media screen and (max-width: 992px) {
+    header {
+        margin: 0px 0px;
+    }
+    main {
+        margin: 0px 50px;
+    }
+    footer {
+        margin-top: 90px;
+        margin-right: 0px;
+        margin-left: 0px; 
+        height: 120px;
+    }  
+}
+
+/*768*/
+@media screen and (max-width: 768px) {
+    .header li {
+        font-size: 15px;
+    }
+    .acesso h5 {
+        font-size: 15px;
+    }
+    .header {
+        display: flex;
+        flex-direction: column;
+    }
+    .img img {
+        height: 90px;
+    }
+    header {
+        height: 160px
+    }
+    .traco {
+        background-color: #31303D;
+        height: 60px;
+    }
+
+    #respostas button{
+        height: 60px;
+        width: 200px;
+        background-color: #5285A4;
+        border-radius: 15px;
+        color: white;
+        border: none;
+        font-size: 12px;
+    }
+    #respostas button:hover{
+        height: 60px;
+        width: 200px;
+        font-size: 13px;
+    }
+    #tudo h1{
+        font-size: 25px;
+        text-align: center;
+        padding-bottom: 10px;
+        padding-right: 20px;
+        padding-left: 20px;
+    } 
+    footer {
+        margin-top: 80px;
+    }
+    .rodape li {
+        font-size: 13px;
+    }
+}
+
+/*576*/
+@media screen and (max-width: 576px) {
+    .traco {
+        display: none;
+    }
+    .acesso h5 {
+        font-size: 12px;
+    }
+    .header li {
+        font-size: 12px;
+    }
+    header{
+        border-end-start-radius: 0px;
+        border-end-end-radius: 0px;
+    }
+    main {
+        margin: 0px;
+    }
+    #tudo {
+        border-radius: 0px;
+    }
+    footer {
+        margin-top: 0px;
+        padding-top: 150px;
+        border-start-start-radius: 0px;
+        border-start-end-radius: 0px;
+    }
+    #respostas {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+    #respostas button{
+        height: 50px;
+        width: 350px;
+        background-color: #5285A4;
+        border-radius: 15px;
+        color: white;
+        border: none;
+        font-size: 17px;
+    }
+    #tudo {
+        padding-top: 20px;
+    }
+    #respostas button:hover{
+        height: 50px;
+        width: 350px;
+        font-size: 18px;
+    }
+    body {
+        background-color: #31303D;
+    }
+    footer img {
+        display: none;
+    }
+    .rodape {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    .rodape li {
+        font-size: 12px;
+    }
+}
+
+/*360*/
+@media screen and (max-width: 360px) {
+    .img img {
+        display: none;
+    }
+    .header li {
+        font-size: 12px;
+    }
+    .acesso h5 {
+        font-size: 10px;
+    }
+    .botao {
+        padding-right: 30px;
+    }
+    #respostas {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+    #respostas button{
+        height: 50px;
+        width: 300px;
+        background-color: #5285A4;
+        border-radius: 15px;
+        color: white;
+        border: none;
+        font-size: 15px;
+    }
+    #tudo {
+        padding-top: 20px;
+    }
+    #tudo h1{
+        font-size: 20px;
+    }
+    #respostas button:hover{
+        height: 50px;
+        width: 300px;
+        font-size: 16px;
+    }
+}

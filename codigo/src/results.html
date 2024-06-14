@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="results.css" />
+    <link
+      rel="shortcut icon"
+      href="/Imagem quest/favicon.ico"
+      type="image/x-icon"
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/x-icon" href="../assets/favicon.ico" />
+    <link rel="stylesheet" href="/pco-si-2024-1-tiaw-explorador-de-carreiras/codigo/header_footer.css">
+    <title>Resultados - Explorador de Carreira</title>
+  </head>
+
+  <body>
+    <header>
+      <div class="header">
+          <div class="img">
+              <img src="/pco-si-2024-1-tiaw-explorador-de-carreiras/codigo/Página de Quiz/repository/Imagem quest/Logo 2.png">
+          </div>
+          <div class="botao">
+              <ul>
+                  <li><a href="">FeedBack</a></li>
+                  <li><a href="">Cursos</a></li>
+                  <li><button class="acesso">
+                      <h5>Entrar</h5>
+                  </button></li>
+                  <li><button class="acesso">
+                      <h5>Criar Conta</h5>
+                  </button></li>
+              </ul>
+          </div>
+      </div>
+  </header>
+
+  <div class="pagGrafico">
+    <main>
+      <section class="results-content">
+        <h2>Resultados</h2>
+
+        <a href="#" class="result-button" id="toggle-show-results"
+          >Mostrar/Ocultar resultado</a
+        >
+
+        <div id="chart-container" class="is-hidden">
+          <canvas id="results-chart"></canvas>
+        </div>
+
+        <a href="#" class="result-button" id="download-result"> Download do Resultado Detalhado </a>
+
+        <a href="#" class="result-button"> Página de cursos </a>
+
+      </section>
+    </main>
+  </div>
+    <footer>
+      <div class="rodape">
+          <div class="img">
+              <img src="/pco-si-2024-1-tiaw-explorador-de-carreiras/codigo/Página de Quiz/repository/Imagem quest/Logo 2.png">
+          </div>
+          <div class="resto">
+              <ul>
+              <li><a href="#">Contato</a></li>
+              <li><a href="#">Política de Privacidade</a></li>
+              <li><a href="#">Equipe</a></li>
+          </ul>
+          </div>
+          
+      </div>
+      <div class="direitos">
+          <h5>&copy;Explorador de Carreiras (2024)</h5>
+      </div>
+  </footer>
+  
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.umd.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.4.0/jspdf.umd.min.js"></script>
+    <script src="chart-results.js"></script>
+  </body>
+</html>
