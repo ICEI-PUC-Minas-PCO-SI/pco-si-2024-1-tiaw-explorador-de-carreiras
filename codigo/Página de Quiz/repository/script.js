@@ -128,11 +128,11 @@ function exibirResultado() {
     // Salvando no arquivo JSON
     atualizarResultado(1, resultadoJSON["resultado"][0]).then(() => {
         // Redirecionar para a página de resultados após salvar
-        window.location.href = '/pco-si-2024-1-tiaw-explorador-de-carreiras/codigo/src/results.html';
+        window.location.href = '/pco-si-2024-1-tiaw-explorador-de-carreiras/codigo/Página de Quiz/src/results.html';
     });
 }
 
-const jsonFilePath = 'http://localhost:3000/resultado';
+const jsonFilePath = 'https://back-end-quiz-khaki.vercel.app/resultado';
 
 // Função para carregar o arquivo JSON
 async function loadJSON() {
@@ -148,7 +148,7 @@ async function loadJSON() {
 
 async function atualizarResultado(id, novoResultado) {
     try {
-        const response = await fetch(`http://localhost:3000/resultado/${id}`, {
+        const response = await fetch(`https://back-end-quiz-khaki.vercel.app/resultado/${id}`, {
             method: 'PUT', // Usando PUT para substituir o resultado existente
             headers: {
                 'Content-Type': 'application/json'

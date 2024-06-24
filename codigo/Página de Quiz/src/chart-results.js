@@ -1,4 +1,5 @@
-const jsonFilePath = '/pco-si-2024-1-tiaw-explorador-de-carreiras/codigo/result_model.json';
+const url = 'https://back-end-quiz-khaki.vercel.app/resultado'
+const jsonFilePath = url;
 
 // Função para carregar o arquivo JSON
 async function loadJSON() {
@@ -17,7 +18,7 @@ loadJSON().then(jsonData => {
     if (!jsonData) return; // Retorna se o JSON não foi carregado
     console.log(jsonData);
 
-    let chartData = jsonData.resultado[0];
+    let chartData = jsonData[0];
 
     const labels = ['Ciências Humanas', 'Ciências Exatas', 'Ciências Sociais', 'Ciências Biológicas', 'Tecnologia']; // Define as categorias do gráfico
     const data = [chartData.humanas, chartData.exatas, chartData.sociais, chartData.bio, chartData.tech]; // Define os dados do gráfico

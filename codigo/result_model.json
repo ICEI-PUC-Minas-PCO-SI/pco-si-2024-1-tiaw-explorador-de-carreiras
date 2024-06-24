@@ -1,11 +1,11 @@
 {
   "resultado": [
     {
-      "humanas": 14.75,
-      "exatas": 22.5,
-      "sociais": 17.75,
-      "bio": 17.5,
-      "tech": 27.5,
+      "humanas": 19,
+      "exatas": 19.5,
+      "sociais": 21,
+      "bio": 24.25,
+      "tech": 16.25,
       "id": "1"
     }
   ]
