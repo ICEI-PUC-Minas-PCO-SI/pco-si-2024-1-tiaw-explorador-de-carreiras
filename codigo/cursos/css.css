@@ -1,0 +1,244 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+/*Padrão*/
+
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Ubuntu", sans-serif;
+}
+p {
+    font-family: "Raleway", sans-serif;
+}
+a {
+    text-decoration: none;
+}
+li {
+    list-style: none;
+}
+
+
+/*Header padrão*/
+
+header {
+    margin: auto;
+    background-color: #31303D;
+    height: 140px;
+    padding: 0px 40px;
+    padding-top: 20px;
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header a {
+    color: white;
+    transition: all 0.3s ease;
+}
+header a:hover {
+    color: #5285A4;
+}
+.botao ul {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+header li {
+    font-size: 18px;
+}
+header h5 {
+    font-size: 13px;
+}
+.img img {
+    height: 110px;
+}
+header button {
+    cursor: pointer;
+    border: none;
+    padding: 0px 10px;
+    background-color: #3154B8;
+    color: white;
+    border-radius: 7px;
+    box-shadow: none;
+    transition: all 0.3s ease;
+}
+header button:hover {
+    background-color: #7CB6C2;
+    color: white;
+    box-shadow: 0px 5px 5px 0px rgba(255, 255, 255, 0.258);
+}
+.acesso {
+    margin-top: 3px;
+    height: 40px;
+    padding: 0px 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.caixa {
+    width: 300px;
+    height: 2050px;
+    background-color: #31303D;
+    border: 1px solid white;
+    border-radius: 15px;
+    padding: 10px;
+    text-align: center;
+    font-size: 18px;
+    margin-top: 10px;
+    overflow-y: auto;
+    float: left;
+    flex: auto;
+
+}
+  .aju {
+    display: flex;
+    justify-content: left;
+    margin-bottom: 10px;
+  }
+  .curso li{
+    color: white;
+    font-size: medium;
+  }
+  .curso img{
+    height: 150px;
+    width: 200px;
+    border-radius: 20px;
+  }
+  .curso {
+    width: 200px;
+    height: 200px;
+    background-color: #31303D;
+    border: 1px solid #31303D;
+    border-radius: 20px;
+    margin: 0 5px;
+  }
+  .todoscards{
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-around;
+}
+.todoscards li{
+    font-size: x-small;
+    text-align: center;
+}
+.todoscards p{
+    font-size: x-small;
+    text-align: center;
+    color: white;
+    padding-top: 0px;
+}
+
+  .row {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+  }
+  
+  .small-box {
+    width: 280px;
+    height: 180px;
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    margin: 10px;
+    margin-top: 10px;
+  }
+  footer {
+    margin: auto;
+    background-color: #31303D;
+    height: 140px;
+    padding: 0px 40px;
+    padding-top: 20px;
+}
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+footer a {
+    color: white;
+    transition: all 0.3s ease;
+}
+footer a:hover {
+    color: #5285A4;
+}
+.botao ul {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+footer li {
+    font-size: 18px;
+}
+footer h5 {
+    font-size: 13px;
+}
+.img img {
+    height: 110px;
+}
+main {
+    padding: 0px 50px;
+    text-align: justify;
+}
+footer button {
+    cursor: pointer;
+    border: none;
+    padding: 0px 10px;
+    background-color: #3154B8;
+    color: white;
+    border-radius: 7px;
+    box-shadow: none;
+    transition: all 0.3s ease;
+}
+footer button:hover {
+    background-color: #7CB6C2;
+    color: white;
+    box-shadow: 0px 5px 5px 0px rgba(255, 255, 255, 0.258);
+}
+.acesso {
+    margin-top: 3px;
+    height: 40px;
+    padding: 0px 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.titulo {
+  font-size: 18px;
+  margin-top: 10px;
+}
+
+.p {
+  font-size: 14px;
+  color: #666;
+}
+.copi{
+    color: white;
+}
+h2{
+    padding: 20px;
+}
+h3{
+    padding: 5px;
+    margin-left: 20px;
+    margin-right: 5px;
+}
+p{
+   margin-left: 20px;
+}
+h4{
+    margin-left: 20px;
+    margin-top: 0%;
+}
+.imgcurso{
+    height: 200px;
+    width: 300px;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px;
+    float: inline-end;
+}
