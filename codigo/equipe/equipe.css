@@ -1,0 +1,130 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Ubuntu", sans-serif;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; /* Garante que o corpo da página ocupe toda a altura visível do viewport */
+}
+
+header {
+    background-color: #31303D;
+    height: 140px;
+    padding: 20px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px; /* Adicionado para criar espaço entre header e main */
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+header a {
+    color: white;
+    transition: all 0.3s ease;
+}
+
+header a:hover {
+    color: #5285A4;
+}
+
+.botao ul {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+header li {
+    font-size: 18px;
+}
+
+header h5 {
+    font-size: 13px;
+}
+
+.img img {
+    height: 110px;
+}
+
+header button {
+    cursor: pointer;
+    border: none;
+    padding: 0px 10px;
+    background-color: #3154B8;
+    color: white;
+    border-radius: 7px;
+    box-shadow: none;
+    transition: all 0.3s ease;
+}
+
+header button:hover {
+    background-color: #7CB6C2;
+    color: white;
+    box-shadow: 0px 5px 5px 0px rgba(255, 255, 255, 0.258);
+}
+
+main {
+    flex: 1; /* Ocupa o espaço restante entre o header e o footer */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px; /* Adicionado para criar espaço entre main e footer */
+}
+
+.cards-container {
+    display: flex;
+    justify-content: space-around;
+    gap: 40px; /* Espaçamento entre os cards */
+    max-width: 1200px; /* Largura máxima dos cards */
+    padding: 40px; /* Espaçamento interno dos cards */
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    max-width: 200px; /* Largura máxima de cada card */
+}
+
+.card img {
+    width: 100%;
+    max-width: 200px; /* Largura máxima da imagem */
+    height: auto;
+    border-radius: 50%; /* Bordas arredondadas para a imagem */
+}
+
+.rodape {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer a {
+    color: white;
+    transition: all 0.3s ease;
+}
+
+footer a:hover {
+    color: #5285A4;
+}
+
+.resto ul {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.direitos {
+    background-color: #31303D;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}

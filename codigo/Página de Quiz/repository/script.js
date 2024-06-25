@@ -132,7 +132,7 @@ function exibirResultado() {
     });
 }
 
-const jsonFilePath = 'http://localhost:3000/resultado';
+const jsonFilePath = 'https://back-end-quiz-khaki.vercel.app/resultado';
 
 // Função para carregar o arquivo JSON
 async function loadJSON() {
@@ -148,7 +148,7 @@ async function loadJSON() {
 
 async function atualizarResultado(id, novoResultado) {
     try {
-        const response = await fetch(`http://localhost:3000/resultado/${id}`, {
+        const response = await fetch(`https://back-end-quiz-khaki.vercel.app/resultado/${id}`, {
             method: 'PUT', // Usando PUT para substituir o resultado existente
             headers: {
                 'Content-Type': 'application/json'

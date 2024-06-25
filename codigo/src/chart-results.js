@@ -1,4 +1,5 @@
-const jsonFilePath = '/pco-si-2024-1-tiaw-explorador-de-carreiras/codigo/result_model.json';
+const url = 'https://back-end-quiz-khaki.vercel.app/resultado'
+const jsonFilePath = url;
 
 // Função para carregar o arquivo JSON
 async function loadJSON() {
@@ -17,9 +18,9 @@ loadJSON().then(jsonData => {
     if (!jsonData) return; // Retorna se o JSON não foi carregado
     console.log(jsonData);
 
-    let chartData = jsonData.resultado[0];
+    let chartData = jsonData[0];
 
-    const labels = ['Ciências Humanas', 'Ciências Exatas', 'Ciências Sociais', 'Ciências Biológicas', 'Tecnologia']; // Define as categorias do gráfico
+    const labels = ['Humanidade e Comunicação', 'Ciências Exatas', 'Administração e Gestão', 'Saúde e Biologia', 'Tecnologia da Informação']; // Define as categorias do gráfico
     const data = [chartData.humanas, chartData.exatas, chartData.sociais, chartData.bio, chartData.tech]; // Define os dados do gráfico
 
     const config = {
@@ -38,70 +39,113 @@ loadJSON().then(jsonData => {
     const generatePDF = () => {
         const { jsPDF } = window.jspdf;
         const doc = new jsPDF();
-
+    
+        const pageWidth = doc.internal.pageSize.getWidth();
+        const pageHeight = doc.internal.pageSize.getHeight();
+        const margin = 10;
+        const maxWidth = pageWidth - 2 * margin; // Largura máxima para o texto com margem
+    
+        // Dimensões do gráfico
+        const chartWidth = 120; // Largura do gráfico
+        const chartHeight = (chartWidth / 4) * 3; // Altura para manter a proporção 4:3
+    
+        // Função para centralizar texto
+        const centerText = (text, y) => {
+            const textWidth = doc.getStringUnitWidth(text) * doc.getFontSize() / doc.internal.scaleFactor;
+            const x = (pageWidth - textWidth) / 2;
+            doc.text(text, x, y);
+        };
+    
         // Título
         doc.setFontSize(20);
-        doc.text('Resultados do Explorador de Carreira', 10, 10);
-
+        doc.text('Resultados do Explorador de Carreira', margin, 10);
+    
         // Subtítulo
         doc.setFontSize(16);
-        doc.text('Análise Detalhada', 10, 20);
-
+        centerText('Análise Detalhada', 20);
+    
         // Texto introdutório
         doc.setFontSize(12);
-        doc.text('A seguir estão os resultados detalhados de sua análise de carreira, incluindo a distribuição percentual das diferentes áreas.', 10, 30);
-
+        centerText('A seguir estão os resultados detalhados de sua análise de carreira', 30);
+    
         // Dados do gráfico
         doc.setFontSize(12);
-        doc.text('Ciências Humanas: ' + chartData.humanas + '%', 10, 40);
-        doc.text('Ciências Exatas: ' + chartData.exatas + '%', 10, 50);
-        doc.text('Ciências Sociais: ' + chartData.sociais + '%', 10, 60);
-        doc.text('Ciências Biológicas: ' + chartData.bio + '%', 10, 70);
-        doc.text('Tecnologia: ' + chartData.tech + '%', 10, 80);
-
-        // Adiciona o gráfico ao PDF
-        doc.addPage();
+        doc.text('Humanidade e Comunicação: ' + chartData.humanas + '%', margin, 40);
+        doc.text('Ciências Exatas: ' + chartData.exatas + '%', margin, 50);
+        doc.text('Administração e Gestão: ' + chartData.sociais + '%', margin, 60);
+        doc.text('Saúde e Biologia: ' + chartData.bio + '%', margin, 70);
+        doc.text('Tecnologia da Informação: ' + chartData.tech + '%', margin, 80);
+    
+        // Adiciona o gráfico ao PDF logo após os dados do gráfico
         doc.setFontSize(20);
-        doc.text('Gráfico de Resultados', 10, 10);
-        doc.addImage(resultsChart.toBase64Image(), 'PNG', 10, 20, 180, 160);
-
+        doc.text('Dados do Gráfico', margin, 100);
+        const chartX = (pageWidth - chartWidth) / 2; // Centraliza o gráfico horizontalmente
+        doc.addImage(resultsChart.toBase64Image(), 'PNG', chartX, 120, chartWidth, chartHeight);
+    
         // Adiciona uma nova seção com uma tabela
         doc.addPage();
         doc.setFontSize(20);
-        doc.text('Informações Adicionais', 10, 10);
-
+        doc.text('Informações Adicionais', margin, 10);
+    
         // Tabela
         doc.setFontSize(12);
         doc.text('Área', 10, 30);
         doc.text('Descrição', 50, 30);
-
+    
         const rows = [
-            ['Ciências Humanas', 'Descrição sobre Ciências Humanas...'],
-            ['Ciências Exatas', 'Descrição sobre Ciências Exatas...'],
-            ['Ciências Sociais', 'Descrição sobre Ciências Sociais...'],
-            ['Ciências Biológicas', 'Descrição sobre Ciências Biológicas...'],
-            ['Tecnologia', 'Descrição sobre Tecnologia...']
+            ['Humanidade e Comunicação:', 'Envolve o estudo das condições e realizações humanas, englobando áreas como história, filosofia, línguas, literatura, artes e outras disciplinas que exploram aspectos culturais e sociais.'],
+            ['Ciências Exatas:', 'Engloba o estudo de disciplinas que envolvem rigor e precisão, como matemática, física, química e áreas afins, focando em fórmulas, teorias e experimentos que explicam fenômenos naturais.'],
+            ['Administração e Gestão:', 'Os cursos de Administração e Gestão são projetados para preparar os estudantes para uma variedade de funções gerenciais e administrativas em diversos setores. A seguir, detalho o que normalmente é coberto nesses cursos, suas possíveis áreas de especialização, e os benefícios de seguir uma carreira nessas áreas.'],
+            ['Saúde e Biologia:', 'Os cursos de Saúde e Biologia abrangem uma vasta gama de disciplinas que exploram os aspectos biológicos, fisiológicos, clínicos e sociais da vida e da saúde humana e animal. A seguir, apresento uma visão geral dos cursos em cada uma dessas áreas, destacando seus objetivos, conteúdos típicos e possíveis carreiras.'],
+            ['Tecnologia da Informação:', 'Trata do desenvolvimento e aplicação de técnicas, ferramentas e sistemas para resolver problemas e melhorar a qualidade de vida, englobando áreas como informática, engenharia, eletrônica, robótica e outras inovações tecnológicas.']
         ];
-
+    
         let y = 40;
         rows.forEach(row => {
             doc.text(row[0], 10, y);
-            doc.text(row[1], 50, y);
-            y += 10;
+            const descriptionLines = doc.splitTextToSize(row[1], maxWidth - 50); // Ajuste da largura para não sobrepor a coluna da descrição
+            descriptionLines.forEach(line => {
+                doc.text(line, 50, y);
+                y += 10;
+            });
+            y += 10; // Adiciona espaço entre as linhas da tabela
         });
-
+    
         // Adiciona mais textos ou imagens conforme necessário
         // Exemplo: Adicionando uma nova página com mais texto
         doc.addPage();
         doc.setFontSize(20);
-        doc.text('Conclusão', 10, 10);
+        doc.text('Conclusão', margin, 10);
         doc.setFontSize(12);
-        doc.text('Esta é uma conclusão detalhada sobre os resultados do seu teste de cursos...', 10, 20);
-        doc.text('As informações corretas serão entregues na última sprint pois depende dos artefatos dos outros integrantes', 10, 30);
-
+    
+        const conclusionText = 'As diversas áreas do conhecimento oferecem uma ampla gama de oportunidades profissionais de trabalho. ' +
+            'Nas Ciências Humanas, cursos como História, Filosofia e Letras é voltado para atuarem na educação, pesquisa e preservação cultural. ' +
+            'Nas Ciências Exatas, Matemática, Física e Química da ênfase para o ensino, pesquisa, setores industriais, inovação e desenvolvimento tecnológico. ' +
+            'Administração e Gestão, com cursos como Administração, Gestão de Recursos Humanos e Gestão Pública, preparam profissionais para atuar em planejamento estratégico, liderança organizacional e políticas públicas, com foco na eficiência organizacional e desenvolvimento socioeconômico.' +
+            'Nas saúde e biologia, Biologia, Biomedicina e Medicina são cursos que direcionam para a pesquisa científica, saúde pública e medicina clínica, setores com alta demanda e relevância contínua. ' +
+            'Por fim, na área de Tecnologia, com cursos como Engenharia da Computação, Ciência da Computação e Sistemas de Informação, tem um foco maior para um mercado em constante expansão, com oportunidades em desenvolvimento de software, segurança da informação e inteligência artificial.';
+    
+        const conclusionLines = doc.splitTextToSize(conclusionText, maxWidth);
+        conclusionLines.forEach((line, index) => {
+            doc.text(line, margin, 20 + (index * 10));
+        });
+    
+        const additionalText = 'Ao retornar para a tela de resultados, existe a página de cursos';
+        const additionalLines = doc.splitTextToSize(additionalText, maxWidth);
+        additionalLines.forEach((line, index) => {
+            doc.text(line, margin, 30 + (conclusionLines.length * 10) + (index * 10));
+        });
+    
         // Salva o PDF
         doc.save('resultado_detalhado.pdf');
     };
+    
+    
+    
+    
+    
+    
+    
 
     // Evento de clique para o botão de download
     const downloadButton = document.getElementById('download-result');
@@ -115,3 +159,5 @@ const results = document.getElementById('chart-container');
 toggleButton.addEventListener('click', function () {
     results.classList.toggle('is-hidden'); // Ao clicar no botão, remove a classe "is-hidden", mostrando o resultado
 });
+
+// Evento de clique para redirecionar para a página de cursos
