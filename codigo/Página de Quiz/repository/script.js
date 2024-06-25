@@ -128,7 +128,7 @@ function exibirResultado() {
     // Salvando no arquivo JSON
     atualizarResultado(1, resultadoJSON["resultado"][0]).then(() => {
         // Redirecionar para a página de resultados após salvar
-        window.location.href = '/pco-si-2024-1-tiaw-explorador-de-carreiras/codigo/src/results.html';
+        window.location.href = '/pco-si-2024-1-tiaw-explorador-de-carreiras/codigo/Página de Quiz/src/results.html';
     });
 }
 
