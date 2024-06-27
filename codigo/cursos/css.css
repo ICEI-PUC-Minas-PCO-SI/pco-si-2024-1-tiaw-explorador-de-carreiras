@@ -20,7 +20,6 @@ li {
     list-style: none;
 }
 
-
 /*Header padrão*/
 
 header {
@@ -81,7 +80,7 @@ header button:hover {
 }
 .caixa {
     width: 300px;
-    height: 2050px;
+    height: 1920px;
     background-color: #31303D;
     border: 1px solid white;
     border-radius: 15px;
@@ -91,13 +90,13 @@ header button:hover {
     margin-top: 10px;
     overflow-y: auto;
     float: left;
-    flex: auto;
 
 }
   .aju {
     display: flex;
     justify-content: left;
     margin-bottom: 10px;
+    flex-wrap: wrap;
   }
   .curso li{
     color: white;
@@ -119,7 +118,7 @@ header button:hover {
   .todoscards{
    display: flex;
    flex-wrap: wrap;
-   justify-content: space-around;
+   justify-content: center;
 }
 .todoscards li{
     font-size: x-small;
@@ -138,44 +137,16 @@ header button:hover {
     margin-bottom: 10px;
   }
   
-  .small-box {
-    width: 280px;
-    height: 180px;
-    background-color: #f0f0f0;
-    border: 1px solid #ccc;
-    border-radius: 20px;
-    margin: 10px;
-    margin-top: 10px;
-  }
   footer {
-    margin: auto;
+    margin-top: 93px;
     background-color: #31303D;
-    height: 140px;
-    padding: 0px 40px;
+    height: 135px;
     padding-top: 20px;
-}
-.footer {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-footer a {
-    color: white;
-    transition: all 0.3s ease;
-}
-footer a:hover {
-    color: #5285A4;
 }
 .botao ul {
     display: flex;
     align-items: center;
     gap: 30px;
-}
-footer li {
-    font-size: 18px;
-}
-footer h5 {
-    font-size: 13px;
 }
 .img img {
     height: 110px;
@@ -184,20 +155,33 @@ main {
     padding: 0px 50px;
     text-align: justify;
 }
-footer button {
-    cursor: pointer;
-    border: none;
-    padding: 0px 10px;
-    background-color: #3154B8;
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-right: 50px;
+}
+footer a {
     color: white;
-    border-radius: 7px;
-    box-shadow: none;
     transition: all 0.3s ease;
 }
-footer button:hover {
-    background-color: #7CB6C2;
+footer a:hover {
+    color: #5285A4;
+}
+.resto ul {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+.direitos {
+    background-color: #31303D;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     color: white;
-    box-shadow: 0px 5px 5px 0px rgba(255, 255, 255, 0.258);
+}
+footer li {
+    font-size: 16px;
 }
 .acesso {
     margin-top: 3px;
@@ -241,4 +225,486 @@ h4{
     flex-wrap: wrap;
     padding: 20px;
     float: inline-end;
+}
+@media screen and (max-width: 1600px) {
+    header {
+        margin: 0px auto;
+    }
+    footer {
+        margin: 0px auto;
+    }  
+    .caixa {
+        height: 2060px;
+    }
+
+}
+@media screen and (max-width: 1581px) {
+    .caixa {
+        height: 2530px;
+    }
+}
+@media screen and (max-width: 1440px){
+    header {
+        margin: 0px auto;
+    }
+    footer {
+        margin: 0px auto;
+    }  
+}
+@media screen and (max-width: 1329px) {
+    .caixa {
+        height: 3470px;
+    }
+}
+@media screen and (max-width: 1200px){
+    header {
+        margin: 0px auto;
+    }
+    footer {
+        margin: 0px auto;
+    }  
+}
+@media screen and (max-width: 1077px) {
+    .caixa {
+        height: 5100px;
+    }
+}
+@media screen and (max-width: 830px){
+    header {
+        margin: 0px auto;
+    }
+    header li {
+        font-size: 17px;
+    }
+    header h5 {
+        font-size: 14px;
+    }
+    .img img {
+        height: 107px;
+    }
+    footer {
+        margin: 0px auto;
+    }  
+    .aju {
+        display: flex;
+        justify-content: left;
+        margin-bottom: 10px;
+        padding-right: 20px;
+      }
+      .curso li{
+        color: white;
+        font-size: medium;
+      }
+      .curso img{
+        height: 130px;
+        width: 180px;
+        border-radius: 20px;
+      }
+      .curso {
+        width: 180px;
+        height: 180px;
+        background-color: #31303D;
+        border: 1px solid #31303D;
+        border-radius: 20px;
+        margin: 0 5px;
+      }
+      .todoscards{
+       display: flex;
+       flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    .todoscards li{
+        font-size: x-small;
+        text-align: center;
+        
+    }
+    .todoscards p{
+        font-size: x-small;
+        text-align: center;
+        color: white;
+        padding-top: 0px;
+    }
+    .caixa {
+        width: 280px;
+        height: 4670px;
+        background-color: #31303D;
+        border: 1px solid white;
+        border-radius: 15px;
+        padding: 8px;
+        text-align: center;
+        font-size: 15px;
+        margin-top: 8px;
+        overflow-y: auto;
+        float: left;
+        flex: auto;
+    
+    }
+}
+@media screen and (max-width: 820px){
+    header {
+        margin: 0px auto;
+    }
+    header li {
+        font-size: 16px;
+    }
+    header h5 {
+        font-size: 11px;
+    }
+    .img img {
+        height: 105px;
+    }
+    footer {
+        margin: 0px auto;
+    }  
+    .aju {
+        display: flex;
+        justify-content: left;
+        margin-bottom: 10px;
+        padding-right: 20px;
+      }
+      .curso li{
+        color: white;
+        font-size: medium;
+      }
+      .curso img{
+        height: 110px;
+        width: 160px;
+        border-radius: 20px;
+      }
+      .curso {
+        width: 160px;
+        height: 160px;
+        background-color: #31303D;
+        border: 1px solid #31303D;
+        border-radius: 20px;
+        margin: 0 5px;
+
+      }
+      .todoscards{
+       display: flex;
+       flex-wrap: wrap;
+       justify-content: center;
+    }
+    .todoscards li{
+        font-size: x-small;
+        text-align: center;
+        
+    }
+    .todoscards p{
+        font-size: x-small;
+        text-align: center;
+        color: white;
+        padding-top: 0px;
+    }
+    .caixa {
+        width: 280px;
+        height: 4230px;
+        background-color: #31303D;
+        border: 1px solid white;
+        border-radius: 15px;
+        padding: 8px;
+        text-align: center;
+        font-size: 15px;
+        margin-top: 8px;
+        overflow-y: auto;
+        float: left;
+        flex: auto;
+    
+    }
+}
+@media screen and (max-width: 761px) {
+    .caixa {
+        height: 8300px;
+    }
+}
+@media screen and (max-width: 750px){
+    header {
+        margin: 0px auto;
+    }
+    header li {
+        font-size: 13px;
+    }
+    header h5 {
+        font-size: 10px;
+    }
+    .img img {
+        height: 100px;
+    }
+    footer {
+        margin: 0px auto;
+    }  
+    .aju {
+        display: flex;
+        margin-bottom: 10px;
+        padding-right: 20px;
+      }
+      .curso li{
+        color: white;
+        font-size: medium;
+      }
+      .curso img{
+        height: 90px;
+        width: 140px;
+        border-radius: 20px;
+      }
+      .curso {
+        width: 140px;
+        height: 140px;
+        background-color: #31303D;
+        border: 1px solid #31303D;
+        border-radius: 20px;
+        margin: 0 5px;
+      }
+      .todoscards{
+       display: flex;
+       flex-wrap: wrap;
+      
+    }
+    .todoscards li{
+        font-size: x-small;
+        text-align: center;
+        
+    }
+    .todoscards p{
+        font-size: x-small;
+        text-align: center;
+        color: white;
+        padding-top: 0px;
+    }
+    .caixa {
+        width: 280px;
+        height: 3790px;
+        background-color: #31303D;
+        border: 1px solid white;
+        border-radius: 15px;
+        padding: 8px;
+        text-align: center;
+        font-size: 15px;
+        margin-top: 8px;
+        overflow-y: auto;
+        float: left;
+        flex: auto;
+    
+    }
+}
+@media screen and (max-width: 721px) {
+    .caixa {
+        height: 7440px;
+    }
+}
+
+@media screen and (max-width: 690px){
+    header {
+        margin: 0px auto;
+    }
+    header li {
+        font-size: 13px;
+    }
+    header h5 {
+        font-size: 10px;
+    }
+    .img img {
+        height: 100px;
+    }
+    footer {
+        margin: 0px auto;
+    }  
+    .aju {
+        display: flex;
+        margin-bottom: 10px;
+        padding-right: 15px;
+      }
+      .curso li{
+        color: white;
+        font-size: medium;
+      }
+      .curso img{
+        height: 85px;
+        width: 135px;
+        border-radius: 20px;
+      }
+      .curso {
+        width: 135px;
+        height: 135px;
+        background-color: #31303D;
+        border: 1px solid #31303D;
+        border-radius: 20px;
+        margin: 0 5px;
+      }
+      .todoscards{
+       display: flex;
+       flex-wrap: wrap;
+      
+    }
+    .todoscards li{
+        font-size: xx-small;
+        text-align: center;
+        
+    }
+    .todoscards p{
+        font-size: xx-small;
+        text-align: center;
+        color: white;
+        padding-top: 0px;
+    }
+    .caixa {
+        width: 230px;
+        height: 3680px;
+        background-color: #31303D;
+        border: 1px solid white;
+        border-radius: 15px;
+        padding: 8px;
+        text-align: center;
+        font-size: 15px;
+        margin-top: 8px;
+        overflow-y: auto;
+        float: left;
+        flex: auto;
+    
+    }
+}
+@media screen and (max-width: 650px){
+    header {
+        margin: 0px auto;
+    }
+    header li {
+        font-size: 13px;
+    }
+    header h5 {
+        font-size: 10px;
+    }
+    footer {
+        display: none;
+    }  
+    .img img {
+        display: none;
+    }
+    .aju {
+        display: flex;
+        margin-bottom: 10px;
+        padding-right: 15px;
+      }
+      .curso li{
+        color: white;
+        font-size: medium;
+      }
+      .header {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      .header li {
+        font-size: 15px;
+      }
+      .header button h5 {
+        font-size: 13px;
+      }
+      .curso img{
+        height: 150px;
+        width: 200px;
+        border-radius: 20px;
+
+      }
+      .curso {
+        width: 200px;
+        height: 200px;
+        background-color: #31303D;
+        border: 1px solid #31303D;
+        border-radius: 20px;
+        margin: 0 5px;
+        
+      }
+      .tudo{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+      }
+      .todoscards{
+      display: none;
+    }
+    .searchInput{
+    align-items: center;
+    }
+    .caixa {
+        width: 90%;
+        height: 700px;
+        background-color: #31303D;
+        border: 1px solid white;
+        border-radius: 15px;
+        padding: 8px;
+        text-align: center;
+        font-size: 15px;
+        margin-top: 8px;
+        overflow-y: auto;
+        margin-left: 20px;
+        justify-content: center;
+    }
+}
+@media screen and (max-width: 450px){
+    .botao ul {
+        display: flex;
+        align-items: center;
+        gap: 20px;
+    }
+    footer {
+        display: none;
+    }  
+    .header {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      .header li {
+        font-size: 13px;
+      }
+      .header button h5 {
+        font-size: 11px;
+      }
+    .botao{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .aju {
+        display: flex;
+        margin-bottom: 10px;
+        padding-right: 15px;
+      }
+      .curso li{
+        color: white;
+        font-size: medium;
+      }
+      .curso img{
+        height: 130px;
+        width: 180px;
+        border-radius: 20px;
+      }
+      .curso {
+        width: 180px;
+        height: 180px;
+        background-color: #31303D;
+        border: 1px solid #31303D;
+        border-radius: 20px;
+        margin: 0 5px;
+      }
+      .todoscards{
+       display: none;
+    }
+    .caixa {
+        width: 90%;
+        height: 700px;
+        background-color: #31303D;
+        border: 1px solid white;
+        border-radius: 15px;
+        padding: 8px;
+        text-align: center;
+        font-size: 15px;
+        margin-top: 15px;
+        margin-left: 10px;
+        overflow-y: auto;
+        float: left;
+        flex: auto;
+        
+    
+    }
 }
