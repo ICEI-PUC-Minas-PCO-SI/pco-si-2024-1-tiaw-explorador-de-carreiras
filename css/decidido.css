@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100..900&display=swap');
+
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Ubuntu", sans-serif;
+}
+
+p {
+    font-family: "Raleway", sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+
+header {
+    background-color: #3154B8;
+    padding: 10px;
+    border-bottom: 2px solid #ffffff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo-container {
+    background-color: #31303D; 
+    padding: 10px;
+}
+
+.logo img {
+    height: 40px;
+}
+
+#home-button {
+    padding: 10px 20px;
+    background-color: #ffffff;
+    color: #31303D;
+    border: none;
+    cursor: pointer;
+}
+
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+}
+
+.main-content {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ffffff;
+}
+
+h2 {
+    color: #31303D;
+}
+
+p {
+    color: #31303D;
+}
+
+
+#decidido-section {
+    text-align: center;
+    max-width: 600px; 
+    margin: 0 auto; 
+}
+
+#decidido-section h2 {
+    margin-bottom: 20px;
+}
+
+#decidido-section p {
+    margin-bottom: 40px;
+}
+
+@media screen and (max-width: 767px) {
+    .main-content {
+        padding: 30px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .main-content {
+        padding: 20px;
+    }
+}
