@@ -11,7 +11,12 @@ a {
     text-decoration: none;
     color: whitesmoke;
 }
-
+#welcome-message {
+    color: white;
+    font-family: "Ubunto", sans-serif;
+    font-weight: 300px;
+    padding-top: 3px;
+}
 
 main {
     min-height: 100vh;

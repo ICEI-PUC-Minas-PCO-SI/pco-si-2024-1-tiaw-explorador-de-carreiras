@@ -8,7 +8,7 @@ async function loadJSON() {
         const data = await response.json();
         return data;
     } catch (e) {
-        console.error(`Erro ao carregar o arquivo JSON: ${e}`);
+        console.error('Erro ao carregar o arquivo JSON: ${e}');
         return null;
     }
 }
@@ -102,13 +102,20 @@ loadJSON().then(jsonData => {
     
         let y = 40;
         rows.forEach(row => {
-            doc.text(row[0], 10, y);
-            const descriptionLines = doc.splitTextToSize(row[1], maxWidth - 50); // Ajuste da largura para não sobrepor a coluna da descrição
-            descriptionLines.forEach(line => {
-                doc.text(line, 50, y);
-                y += 10;
+            const areaName = row[0];
+            const description = row[1];
+            const areaNameLines = doc.splitTextToSize(areaName, 40); // Ajuste para quebra de linha no nome da área
+            const descriptionLines = doc.splitTextToSize(description, maxWidth - 60); // Ajuste da largura para a descrição
+    
+            areaNameLines.forEach((line, index) => {
+                doc.text(line, 10, y + (index * 10));
             });
-            y += 10; // Adiciona espaço entre as linhas da tabela
+    
+            descriptionLines.forEach((line, index) => {
+                doc.text(line, 50, y + (index * 10));
+            });
+    
+            y += Math.max(areaNameLines.length, descriptionLines.length) * 10 + 10; // Ajusta o valor de y para a próxima linha
         });
     
         // Adiciona mais textos ou imagens conforme necessário
@@ -139,6 +146,8 @@ loadJSON().then(jsonData => {
         // Salva o PDF
         doc.save('resultado_detalhado.pdf');
     };
+    
+    
     
     
     

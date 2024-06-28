@@ -79,8 +79,13 @@ header button:hover {
     align-items: center;
     justify-content: center;
 }
-
-/* /Footer/ */
+#welcome-message {
+    color: white;
+    font-family: "Ubunto", sans-serif;
+    font-weight: 300px;
+    padding-top: 3px;
+}
+/* Footer */
 footer {
     margin-top: 93px;
     margin-right: 300px;
@@ -120,86 +125,91 @@ footer li {
     font-size: 16px;
 }
 
-body *{
-    
-}
 
-/*RESPOSIVIDADE*/
-/*1600px*/
+
+
+/* Responsividade */
+/* 1600px */
 @media screen and (max-width: 1600px) {
     header {
-        margin: 0px 200px;
+        margin: 0 200px;
     }
     footer {
         margin-top: 90px;
         margin-right: 200px;
-        margin-left: 200px; 
-    }  
+        margin-left: 200px;
+    }
 }
 
-/*1440*/
+/* 1440px */
 @media screen and (max-width: 1440px) {
     header {
-        margin: 0px 100px;
+        margin: 0 100px;
     }
     footer {
         margin-top: 90px;
         margin-right: 100px;
-        margin-left: 100px; 
+        margin-left: 100px;
         height: 120px;
-    }  
+    }
 }
 
-/*1200*/
+/* 1200px */
 @media screen and (max-width: 1200px) {
     header {
-        margin: 0px 50px;
+        margin: 0 50px;
     }
     footer {
         margin-top: 90px;
         margin-right: 50px;
-        margin-left: 50px; 
+        margin-left: 50px;
         height: 120px;
-    }  
+    }
 }
 
-/*992*/
+/* 992px */
 @media screen and (max-width: 992px) {
     header {
-        margin: 0px 0px;
+        margin: 0;
     }
     footer {
         margin-top: 90px;
-        margin-right: 0px;
-        margin-left: 0px; 
+        margin-right: 0;
+        margin-left: 0;
         height: 120px;
-    }  
+    }
 }
 
-/*768*/
+/* 768px */
 @media screen and (max-width: 768px) {
-    .header li {
-        font-size: 15px;
-    }
-    .acesso h5 {
-        font-size: 15px;
-    }
     .header {
-        display: flex;
         flex-direction: column;
+        align-items: center;
     }
     header {
-        height: 200px
+        height: auto;
+        padding: 20px;
+    }
+    .botao ul {
+        flex-direction: row;
+        gap: 20px;
+    }
+    .acesso {
+        width: 100%;
+        text-align: center;
     }
     footer {
-        margin-top: 80px;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 20px;
     }
-    .rodape li {
-        font-size: 13px;
+    .rodape {
+        flex-direction: column;
+        align-items: flex-start;
     }
 }
 
-/*576*/
+/* 576px */
 @media screen and (max-width: 576px) {
     .acesso h5 {
         font-size: 12px;
@@ -207,17 +217,16 @@ body *{
     .header li {
         font-size: 12px;
     }
-    header{
+    header {
         border-end-start-radius: 0px;
         border-end-end-radius: 0px;
     }
     footer {
-        margin-top: 0px;
+        margin-top: 0;
         padding-top: 50px;
         border-start-start-radius: 0px;
         border-start-end-radius: 0px;
     }
-    
     footer img {
         display: none;
     }
@@ -232,7 +241,7 @@ body *{
     }
 }
 
-/*360*/
+/* 360px */
 @media screen and (max-width: 360px) {
     .header li {
         font-size: 12px;
@@ -243,5 +252,4 @@ body *{
     .botao {
         padding-right: 30px;
     }
-    
 }

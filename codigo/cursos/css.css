@@ -22,6 +22,12 @@ li {
 
 /*Header padrão*/
 
+#welcome-message {
+    color: white;
+    font-family: "Ubunto", sans-serif;
+    font-weight: 300px;
+    padding-top: 3px;
+}
 header {
     margin: auto;
     background-color: #31303D;
