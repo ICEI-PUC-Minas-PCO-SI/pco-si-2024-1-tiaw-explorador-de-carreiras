@@ -24,7 +24,7 @@ document.addEventListener('DOMContentLoaded', function () {
                 timer: 1500,
             }).then(() => {
                 window.location.href = window.location.href =
-                    '/pco-si-2024-1-tiaw-explorador-de-carreiras/codigo/Home_Feedback_Contato/sprint 4/index.html';
+                    '/pco-si-2024-1-tiaw-explorador-de-carreiras/codigo/Home_Feedback_Contato/index.html';
             });
         } else {
             Swal.fire({
