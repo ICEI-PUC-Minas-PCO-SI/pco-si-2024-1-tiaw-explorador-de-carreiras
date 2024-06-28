@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Explorador de Carreira</title>
+    <link rel="stylesheet" href="/pco-si-2024-1-tiaw-explorador-de-carreiras/codigo/Home_Feedback_Contato/sprint%204/css/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/sweetalert2@11/dist/sweetalert2.min.css">
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+</head>
+<body>
+    <header>
+        <div class="header">
+            <div class="img">
+                <img src="/pco-si-2024-1-tiaw-explorador-de-carreiras/codigo/P%C3%A1gina%20de%20Quiz/repository/Imagem%20quest/Logo%202.png">
+            </div>
+            <div class="botao">
+                <ul>
+                    <li><a href="/pco-si-2024-1-tiaw-explorador-de-carreiras/codigo/Home_Feedback_Contato/sprint%204/feedback.html">FeedBack</a></li>
+                    <li><a href="/pco-si-2024-1-tiaw-explorador-de-carreiras/codigo/cursos/index.html">Cursos</a></li>
+                    <li id="welcome-message" style="display: none;"></li>
+                    <a href="/pco-si-2024-1-tiaw-explorador-de-carreiras/codigo/Home_Feedback_Contato/sprint%204/login.html" id="login-button" class="acesso"><button>Entrar</button></a>
+                    <a href="/pco-si-2024-1-tiaw-explorador-de-carreiras/codigo/Home_Feedback_Contato/sprint%204/registro.html" id="register-button" class="acesso"><button>Criar Conta</button></a>
+                    <li>
+                        <a href="#" id="logout-button" class="acesso" style="display: none;">
+                            <button class="sair">Sair</button>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </header>
+
+    <div class="body">
+        <div class="principal">
+            <img src="images/bannerPrincipal.jpg">
+            <h1 class="texto">Descubra o que o destino reserva <br>para você em cada resposta!</h1>
+            <h1 class="aum">Escolha uma das opções para iniciar o teste:</h1>
+        </div>
+        <div class="botao1 contentBox">
+                <a href="/pco-si-2024-1-tiaw-explorador-de-carreiras/codigo/P%C3%A1gina%20de%20Quiz/repository/quest.html"><div id="first" class="buttonBox">
+                    <button class="fazer">Não Decidido</button>
+                    <div class="border"></div>
+                    <div class="border"></div>
+                  </div></a>
+                  <a href="/pco-si-2024-1-tiaw-explorador-de-carreiras/codigo/Home_Feedback_Contato/sprint%204/decidido.html"><div id="first" class="buttonBox">
+                    <button class="fazer">Decidido</button>
+                    <div class="border"></div>
+                    <div class="border"></div>
+                  </div></a>
+                </div>
+        </div>
+            <div class="banner">
+                <img src="images/bannerQuiz.png">
+            </div>
+            <h2 class="fun">Como funciona esse quiz?</h2>
+            <p>Bem-vindo ao nosso quiz especializado em descobrir carreiras que combinam perfeitamente com seus interesses e habilidades únicas. Utilizamos a Escala Likert, uma metodologia comum em pesquisas, variando de 1 a 5, onde os participantes indicam seu grau de concordância ou discordância com afirmações relacionadas ao mapeamento profissional. Isso nos permite oferecer resultados precisos e personalizados para você. Além disso, nosso quiz foi embasado em artigos científicos, como o Big Five, que identifica os principais comportamentos humanos.</p>
+            <p>Com quase 50 cursos detalhadamente mapeados, fornecemos insights valiosos que podem ser decisivos para sua jornada. Se você está buscando clareza sobre seu futuro profissional, selecione 'Não Decidido' para explorar diferentes áreas alinhadas com seus gostos pessoais. Se já tem uma carreira em mente, escolha 'Decidido' para receber informações detalhadas sobre o curso ideal para você.</p>
+            <p>A importância de uma orientação profissional é fundamental, especialmente diante da vasta variedade de cursos superiores disponíveis e da falta de conhecimento sobre suas características. Como destacado no artigo da <a href="http://pepsic.bvsalud.org/scielo.php?pid=S1676-73142002000200006&script=sci_arttext" target="_blank" rel="noopener noreferrer">Pepsic</a>, uma orientação adequada pode proporcionar uma escolha mais informada e alinhada com suas aptidões e interesses, preparando-o melhor para os desafios do mercado de trabalho moderno.<strong> Use os resultados do nosso quiz como ponto de partida para explorar novas oportunidades profissionais, lembrando sempre que nossas sugestões são orientações iniciais, adaptadas às suas preferências e não verdades absolutas.</strong></p>
+        </div>
+    </div>
+
+    <div class="imagens">
+        <img src="images/representativa1.jpg">
+        <img src="images/representativa2.jpg">
+        <img src="images/representativa3.jpg">
+    </div>
+    <footer>
+        <div class="rodape">
+            <div class="img">
+                <img src="/pco-si-2024-1-tiaw-explorador-de-carreiras/codigo/P%C3%A1gina%20de%20Quiz/repository/Imagem%20quest/Logo%202.png">
+            </div>
+            <div class="resto">
+                <ul>
+                    <li><a href="/pco-si-2024-1-tiaw-explorador-de-carreiras/codigo/Home_Feedback_Contato/sprint%204/contato.html">Contato</a></li>
+                    <li><a href="/pco-si-2024-1-tiaw-explorador-de-carreiras/codigo/equipe/equipe.html">Equipe</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="direitos">
+            <h5>&copy;Explorador de Carreiras (2024)</h5>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="js/index.js"></script>
+    <script src="js/logout.js"></script>
+    <script src="js/checkLogin.js"></script>
+</body>
+</html>

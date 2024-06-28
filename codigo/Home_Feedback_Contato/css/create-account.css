@@ -1,0 +1,89 @@
+body {
+    font-family: 'Ubuntu', sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+}
+
+.tudo {
+    display: flex;
+    background-color: #C391B6;
+    justify-content: space-between;
+    width: 40%;
+    height: 50%;
+}
+.dec {
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;
+    padding-right: 10px;
+    background-color: #3154B8;
+    width: 50%;
+    text-align: center;
+    border-top-left-radius: 80px;
+    border-bottom-left-radius: 80px;
+}
+.dec h1 {
+    font-size: 40px;
+}
+.dec button {
+    font-size: 17px;
+    margin-top: 7px;
+    height: 40px;
+    width: 130px;
+    border: none;
+    background-color: #ffffff;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+.dec button:hover {
+    background-color: #f1f1f1;
+}
+
+.create-account-container {
+    padding: 30px;
+    border-radius: 5px;
+    text-align: center;
+    width: 300px;
+    color: #ffffff;
+}
+
+.create-account-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.create-account-form label {
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.create-account-form input {
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    font-size: 16px;
+}
+
+.create-account-form button {
+    padding: 10px 20px;
+    background-color: #3154B8;
+    color: #ffffff;
+    border: none;
+    cursor: pointer;
+    border-radius: 3px;
+    font-size: 16px;
+}
+
+.create-account-form button:hover {
+    background-color: #5285A4;
+}

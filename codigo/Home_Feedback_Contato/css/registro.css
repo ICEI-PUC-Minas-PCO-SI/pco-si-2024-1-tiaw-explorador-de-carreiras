@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+/* Padrão */
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Ubuntu", sans-serif;
+    background-color: #E7E7E7;
+}
+
+/* Container principal */
+.tudo {
+    display: flex;
+    background-color: #C391B6;
+    justify-content: space-between;
+    width: 40%;
+    height: 50%;
+}
+.dec {
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;
+    padding-right: 10px;
+    background-color: #3154B8;
+    width: 50%;
+    text-align: center;
+    border-top-left-radius: 80px;
+    border-bottom-left-radius: 80px;
+}
+.dec h1 {
+    font-size: 40px;
+}
+.dec button {
+    font-size: 17px;
+    margin-top: 7px;
+    height: 40px;
+    width: 130px;
+    border: none;
+    background-color: #ffffff;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+.dec button:hover {
+    background-color: #f1f1f1;
+}
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Formulário de registro */
+.container {
+   
+    padding: 20px;
+    width: 300px;
+    text-align: center;
+}
+
+.container h1 {
+    font-family: "Raleway", sans-serif;
+    color: #31303D;
+    font-weight: bold;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.container form {
+    display: flex;
+    flex-direction: column;
+}
+
+.container label {
+    color: #31303D;
+    font-weight: bold;
+    margin-bottom: 5px;
+    text-align: left;
+}
+
+.container input[type="text"],
+.container input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #CCC;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.container button {
+    background-color: #3154B8;
+    color: #FFF;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: all 0.3s ease;
+}
+
+.container button:hover {
+    background-color: #3155b8ce;
+}
+
+.container button:focus {
+    outline: none;
+}

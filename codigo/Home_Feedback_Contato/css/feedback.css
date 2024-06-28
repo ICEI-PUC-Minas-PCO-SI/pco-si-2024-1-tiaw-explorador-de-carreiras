@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100..900&display=swap');
+
+.logo-container {
+    background-color: #31303D;
+    padding: 10px;
+}
+
+.logo img {
+    height: 40px;
+}
+
+#home-button {
+    padding: 10px 20px;
+    background-color: #ffffff;
+    color: #31303D;
+    border: none;
+    cursor: pointer;
+}
+main {
+    margin-bottom: 300px;
+}
+
+.main-content {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ffffff;
+}
+
+.feedback-title {
+    background-color: transparent;
+    color: #ffffff;
+    font-size: 28px;
+    padding: 10px;
+}
+
+textarea {
+    width: 100%;
+    height: 100px;
+    margin-bottom: 10px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #ffffff;
+    color: #31303D;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #ffffff;
+}
+
+#comments-container {
+    margin-top: 20px;
+    text-align: center; 
+}
+
+.comment {
+    margin-bottom: 10px;
+    padding: 10px;
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+}
+
+.comment-user {
+    color: #3154B8;
+}
+
+.comment-text {
+    margin-bottom: 5px;
+}
+
+.comment-date {
+    color: #31303D;
+    font-size: 12px;
+}
+
+@media screen and (min-width: 768px) {
+    .main-content {
+        padding: 40px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .main-content {
+        padding: 30px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .main-content {
+        padding: 20px;
+    }
+}
