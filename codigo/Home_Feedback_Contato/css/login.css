@@ -93,3 +93,54 @@ body {
 #login-form button:hover {
     background-color: #5285A4;
 }
+@media screen and (max-width: 1350px){
+    .tudo {
+        width: 60%;
+    }
+}
+@media screen and (max-width: 1010px){
+    .tudo {
+        width: 70%;
+    }
+}
+@media screen and (max-width: 853px){
+    .tudo {
+        width: 80%;
+    }
+}
+@media screen and (max-width: 657px){
+    .tudo {
+        width: 95%;
+    }
+}
+@media screen and (max-width: 544px){
+    .tudo {
+        display: flex;
+        flex-direction: column;
+        margin-top: 50px;
+    }
+    .dec {
+        display: flex;
+        justify-content: center;
+        height: 300px;
+        width: 98%;
+        border-top-right-radius: 80px;
+        border-top-left-radius: 80px;
+        border-bottom-left-radius: 0px;
+        border-bottom-right-radius: 0px;
+        position: relative;
+        bottom: 150px;
+    }
+    .dec button {
+        margin-bottom: 10px;
+    }
+    .login-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 0 auto;
+        position: relative;
+        bottom: 150px;
+    }
+}

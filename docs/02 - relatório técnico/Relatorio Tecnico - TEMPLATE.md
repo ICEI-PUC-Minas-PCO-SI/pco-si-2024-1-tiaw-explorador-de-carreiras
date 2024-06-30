@@ -1,4 +1,3 @@
-<<<<<<< HEAD:docs/02 - relatório técnico/Relatorio Tecnico - TEMPLATE.md
 # Informações do Projeto
 `Explorador de Carreira`  
 
@@ -12,8 +11,6 @@ Trabalho Interdisciplinar: Aplicações Web (PUC Minas/Contagem)
 
 * Allef Henrique Costa Leandro
 * Eduardo Versiani de Melo Penna
-* Gustavo Henrique Soares da Silva
-* João Pedro Barbosa Oliveira
 * João Pedro dos Santos Martins
 * Victor Bryan Ferreira Lopes
 
@@ -62,10 +59,6 @@ Trabalho Interdisciplinar: Aplicações Web (PUC Minas/Contagem)
  se encaixa com seu perfil, mostrando para ele os caminhos para escolher o curso do seu
  perfil e com um quiz de perguntas para saber qual área ele mais gosta e se adapta melhor.
 
-> **Links Úteis**:
-> - [Objetivos, Problema de pesquisa e Justificativa](https://medium.com/@versioparole/objetivos-problema-de-pesquisa-e-justificativa-c98c8233b9c3)
-> - [Matriz Certezas, Suposições e Dúvidas](https://medium.com/educa%C3%A7%C3%A3o-fora-da-caixa/matriz-certezas-suposi%C3%A7%C3%B5es-e-d%C3%BAvidas-fa2263633655)
-> - [Brainstorming](https://www.euax.com.br/2018/09/brainstorming/)
 
 ## Objetivos
 
@@ -76,9 +69,6 @@ Trabalho Interdisciplinar: Aplicações Web (PUC Minas/Contagem)
  mostrando para ela no final qual curso ela se encaixa.
  ● Fornecer as informações dos cursos como: o que é estudado, quais as áreas de
  atuação e um resumo de como é o curso em cada período a se estudar.
-
-> **Links Úteis**:
-> - [Objetivo geral e objetivo específico: como fazer e quais verbos utilizar](https://blog.mettzer.com/diferenca-entre-objetivo-geral-e-objetivo-especifico/)
 
 ## Justificativa
 
@@ -99,8 +89,6 @@ A dificuldade de encontrar o curso ideal na faculdade é um problema muito comum
  embasamento a importância de uma orientação a escolha das carreiras a serem seguidas
  (http://pepsic.bvsalud.org/scielo.php?pid=S1676-73142002000200006&script=sci_arttext)
 
-> **Links Úteis**:
-> - [Como montar a justificativa](https://guiadamonografia.com.br/como-montar-justificativa-do-tcc/)
 
 ## Público-Alvo
 
@@ -109,9 +97,6 @@ A dificuldade de encontrar o curso ideal na faculdade é um problema muito comum
  englobaria mais as pessoas entre 16 e 25 anos, já que estão entrando na faculdade ou
  querem mudar de curso.
 
-> **Links Úteis**:
-> - [Público-alvo: o que é, tipos, como definir seu público e exemplos](https://klickpages.com.br/blog/publico-alvo-o-que-e/)
-> - [Qual a diferença entre público-alvo e persona?](https://rockcontent.com/blog/diferenca-publico-alvo-e-persona/)
  
 # Especificações do Projeto
 
@@ -126,22 +111,6 @@ A dificuldade de encontrar o curso ideal na faculdade é um problema muito comum
 <img src="/pco-si-2024-1-tiaw-explorador-de-carreiras/docs/02 - relatório técnico/images/Persona (Maurício).png">
 <img src="/pco-si-2024-1-tiaw-explorador-de-carreiras/docs/02 - relatório técnico/images/Persona (Carolina).png">
 <img src="/pco-si-2024-1-tiaw-explorador-de-carreiras/docs/02 - relatório técnico/images/Persona (Rafael).png">
-
-> **Links Úteis**:
-> - [Persona x Público-alvo](https://flammo.com.br/blog/persona-e-publico-alvo-qual-a-diferenca/)
-> - [O que é persona?](https://resultadosdigitais.com.br/blog/persona-o-que-e/)
-> - [Rock Content](https://rockcontent.com/blog/personas/)
-> - [Hotmart](https://blog.hotmart.com/pt-br/como-criar-persona-negocio/)
-> - [Mapa de Empatia](https://resultadosdigitais.com.br/blog/mapa-da-empatia/)
-> - [Como fazer um mapa de empatia - Vídeo](https://www.youtube.com/watch?v=JlKHGpVoA2Y)
-> 
-> 
-> **Exemplo de Persona**
-> 
-> ![Exemplo de Persona](imaages/../images/persona.png)
-> 
-> Fonte: [Como criar uma persona para o seu negócio](https://raissaviegas.com.br/como-criar-uma-persona/)
-
 
 ## Histórias de Usuários
 
@@ -286,10 +255,6 @@ A dificuldade de encontrar o curso ideal na faculdade é um problema muito comum
   de networking e conexão
   com profissionais da área.
 
-> **Links Úteis**:
-> - [Histórias de usuários com exemplos e template](https://www.atlassian.com/br/agile/project-management/user-stories)
-> - [Como escrever boas histórias de usuário (User Stories)](https://medium.com/vertice/como-escrever-boas-users-stories-hist%C3%B3rias-de-usu%C3%A1rios-b29c75043fac)
-
 ## Requisitos
 
 As tabelas que se seguem apresentam os requisitos funcionais e não funcionais que detalham o escopo do projeto.
@@ -306,8 +271,6 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 |RF-006| O site deverá ter um fluxo de usuário dinâmico e um número de perguntas que não torna a experiência do usuário massiva e chata | ALTA |
 |RF-007| O site deverá conter uma identidade visual única como diferencial dos outros sites com propostas similares | MÉDIA |
 
-
-
 ### Requisitos não Funcionais
 
 |ID     | Descrição do Requisito  |Prioridade |
@@ -316,13 +279,6 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 |RNF-002| O site deve ser responsivo para melhor visualização do usuário | ALTA | 
 |RNF-003| O site poderá mostrar a grade curricular de faculdades renomadas (exemplo: puc minas) | MÉDIA | 
 |RNF-004| Deverá funcionar nos navegadores mais famosos | ALTA | 
-
-
-> **Links Úteis**:
-> 
-> - [O que são Requisitos Funcionais e Requisitos Não Funcionais?](https://codificar.com.br/requisitos-funcionais-nao-funcionais/)
-> - [O que são requisitos funcionais e requisitos não funcionais?](https://analisederequisitos.com.br/requisitos-funcionais-e-requisitos-nao-funcionais-o-que-sao/)
-
 
 ## Restrições
 
@@ -333,38 +289,17 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 |01| O projeto deverá ser entregue até o final do semestre |
 |02| Não pode ser desenvolvido um módulo de backend        |
 
-
-> Enumere as restrições à sua solução. Lembre-se de que as restrições
-> geralmente limitam a solução candidata.
-> 
-> **Links Úteis**:
-> - [O que são Requisitos Funcionais e Requisitos Não Funcionais?](https://codificar.com.br/requisitos-funcionais-nao-funcionais/)
-> - [O que são requisitos funcionais e requisitos não funcionais?](https://analisederequisitos.com.br/requisitos-funcionais-e-requisitos-nao-funcionais-o-que-sao/)
-
-
 # Projeto de Interface
 
-......  COLOQUE AQUI O SEU TEXTO DE INTRODUÇÃO ......
-
-> Apresente as principais interfaces da solução. Discuta como 
-> foram elaboradas de forma a atender os requisitos funcionais, não
-> funcionais e histórias de usuário abordados nas [Especificações do
-> Projeto](#especificações-do-projeto).
+ Estamos concentrando na criação da interface, com ênfase na agilidade, acessibilidade e
+ usabilidade, conseguimos desenvolver um projeto com uma identidade visual consistente
+ emtodas as telas, otimizada para operar de forma eficiente tanto em desktops quanto em
+ dispositivos móveis.
 
 ## User Flow
 
 <img src="/pco-si-2024-1-tiaw-explorador-de-carreiras/docs/02 - relatório técnico/images/Flowchart Template.jpg">
-
-
-> **Links Úteis**:
-> - [User Flow: O Quê É e Como Fazer?](https://medium.com/7bits/fluxo-de-usu%C3%A1rio-user-flow-o-que-%C3%A9-como-fazer-79d965872534)
-> - [User Flow vs Site Maps](http://designr.com.br/sitemap-e-user-flow-quais-as-diferencas-e-quando-usar-cada-um/)
-> - [Top 25 User Flow Tools & Templates for Smooth](https://www.mockplus.com/blog/post/user-flow-tools)
->
-> **Exemplo**:
-> 
-> ![Exemplo de UserFlow](images/userflow.jpg)
-
+Link do User Flow: (https://miro.com/app/board/uXjVKU8TeWw=/)
 
 ## Wireframes
 
@@ -399,17 +334,6 @@ Tela - Política de privacidade
 Tela - Equipe 
 <img src="/pco-si-2024-1-tiaw-explorador-de-carreiras/docs/02 - relatório técnico/images/Equipe.png"> 
 
-> **Links Úteis**:
-> - [Ferramentas de Wireframes](https://rockcontent.com/blog/wireframes/)
-> - [Figma](https://www.figma.com/)
-> - [Adobe XD](https://www.adobe.com/br/products/xd.html#scroll)
-> - [MarvelApp](https://marvelapp.com/developers/documentation/tutorials/)
-> 
-> **Exemplo**:
-> 
-> ![Exemplo de Wireframe](images/wireframe-example.png)
-
-
 # Metodologia
 
 Metodologia Scrum
@@ -430,16 +354,12 @@ Metodologia Scrum
  adaptação contínua, permitindo que as equipes entreguem valor ao cliente de maneira
  eficiente e flexível
 
-> **Links Úteis**:
-> - [Tutorial Trello](https://trello.com/b/8AygzjUA/tutorial-trello)
-> - [Gestão ágil de projetos com o Trello](https://www.youtube.com/watch?v=1o9BOMAKBRE)
-> - [Gerência de projetos - Trello com Scrum](https://www.youtube.com/watch?v=DHLA8X_ujwo)
-> - [Tutorial Slack](https://slack.com/intl/en-br/)
-
 ## Divisão de Papéis
 
 Organização da equipe e divisão de papéis
 
+
+# Sprint 1
 * Allef Henrique Costa Leandro: Definição de problemas, entrevistas, documentação e slides
 * Eduardo Versiani de Melo Penna: Matriz CSD, Definição de problemas, entrevistas, wireframe, slides, correção na documentação e commit no GitHub
 * Gustavo Henrique Soares da Silva: Definição de problemas, entrevistas, wireframe e slides
@@ -447,646 +367,230 @@ Organização da equipe e divisão de papéis
 * João Pedro dos Santos Martins: Definição de problemas, entrevistas, personas, slides e commit no GitHub
 * Victor Bryan Ferreira Lopes: Definição de problemas, entrevistas e slides
 
-> **Links Úteis**:
-> - [11 Passos Essenciais para Implantar Scrum no seu Projeto](https://mindmaster.com.br/scrum-11-passos/)
-> - [Scrum em 9 minutos](https://www.youtube.com/watch?v=XfvQWnRgxG0)
+# Sprint 2
+* Allef Henrique Costa Leandro: Responsável por fazer a Tela de cursos
+* Eduardo Versiani de Melo Penna: Responsável por fazer o Questionário
+* Gustavo Henrique Soares da Silva: Responsável por fazer a Tela de Home
+* João Pedro Barbosa Oliveira: Responsável por fazer a Tela de Contato
+* João Pedro dos Santos Martins: Responsável por fazer o Sistema de Feedback
+* Victor Bryan Ferreira Lopes: Responsável por fazer a Tela de Resultados
 
+# Sprint 3
+* Allef Henrique Costa Leandro: Carregamento da Página dos Cursos
+* Eduardo Versiani de Melo Penna: Funcionalidades do Questionário
+* Gustavo Henrique Soares da Silva: Responsável por fazer a Tela de Home
+* João Pedro Barbosa Oliveira: Responsável por fazer a Tela de Contato
+* João Pedro dos Santos Martins: Tela de Acompanhamento ao usuário que está decidido ao curso
+* Victor Bryan Ferreira Lopes: Entrega do Resultado Detalhado
+
+# Sprint 4
+* Allef Henrique Costa Leandro: Documentação e Vídeo
+* Eduardo Versiani de Melo Penna: Integração da Tela de Cursos com as demais, Apresentação, Documentação e Deploy da aplicação no vercel
+* João Pedro dos Santos Martins: Criação do login logout e apresentação
+* Victor Bryan Ferreira Lopes: Responsável pela tela de Equipe, Documentação e Vídeo
 
 ## Ferramentas
 
-......  COLOQUE AQUI O SEU TEXTO - SIGA O EXEMPLO DA TABELA ABAIXO  ......
+Planejamento: O projeto começou com a definição dos objetivos principais e das funcionalidades desejadas. Utilizamos a metodologia Scrum para organizar as tarefas e sprints para revisar o progresso.
+Design: Criamos wireframes para as principais telas do software e definimos a arquitetura utilizando HTML, CSS e JavaScript no frontend, e Node.js no backend.
+Desenvolvimento: O desenvolvimento foi realizado em ciclos iterativos. Utilizamos Git para controle de versão e GitHub para hospedagem do repositório. A integração contínua foi configurada para garantir a qualidade do código.
+Testes: Realizamos testes de integração para verificar a interação entre diferentes módulos e páginas e testes de aceitação para garantir que as funcionalidades atendem às expectativas dos usuários.
+Implantação: A implantação foi feita na plataforma Vercel, escolhida por sua fácil integração e excelente suporte a projetos JavaScript.
+Manutenção: Planejamos um ciclo de manutenção para aplicar atualizações, corrigir bugs e adicionar novas funcionalidades conforme necessário, de acordo com os feedbacks recebidos pela página de avaliação de usuários implementada no projeto.
 
 | Ambiente  | Plataforma              |Link de Acesso |
 |-----------|-------------------------|---------------|
 |Processo de Design Thinkgin  | Miro |  https://miro.com/app/board/uXjVNjOtyy0=/ | 
 |Repositório de código | GitHub | https://github.com/ICEI-PUC-Minas-PCO-SI/pco-si-2024-1-tiaw-explorador-de-carreiras.git | 
-|Hospedagem do site | Heroku |  https://XXXXXXX.herokuapp.com | 
+|Hospedagem do site | Vercel |  https://carreiras-pink.vercel.app/ | 
 |Protótipo Interativo | Figma | https://www.figma.com/file/v3zb7hO8J6ErXTzt2OBlp1/Untitled?type=design&node-id=0-1&mode=design&t=zSnYxN8LjdfrdWnp-0 | 
-
->
-> Liste as ferramentas empregadas no desenvolvimento do
-> projeto, justificando a escolha delas, sempre que possível.
-> 
-> As ferramentas empregadas no projeto são:
-> 
-> - Editor de código.
-> - Ferramentas de comunicação
-> - Ferramentas de diagramação
-> - Plataforma de hospedagem
-> 
-> O editor de código foi escolhido porque ele possui uma integração com o
-> sistema de versão. As ferramentas de comunicação utilizadas possuem
-> integração semelhante e por isso foram selecionadas. Por fim, para criar
-> diagramas utilizamos essa ferramenta por melhor captar as
-> necessidades da nossa solução.
-> 
-> **Links Úteis - Hospedagem**:
-> - [Getting Started with Heroku](https://devcenter.heroku.com/start)
-> - [Crie seu Site com o HostGator](https://www.hostgator.com.br/como-publicar-seu-site)
-> - [GoDady](https://br.godaddy.com/how-to)
-> - [GitHub Pages](https://pages.github.com/)
+|Desenvolvimento da Aplicação Web | Node.js | https://nodejs.org/pt
 
 ## Controle de Versão
 
 Foi feito o commit na master, por apenas 1 membro do grupo para evitar eventuais erros, 
-já que estamos no processo de aprendizado
+já que estamos no processo de aprendizado.
 
-> Discuta como a configuração do projeto foi feita na ferramenta de
-> versionamento escolhida. Exponha como a gerência de tags, merges,
-> commits e branchs é realizada. Discuta como a gerência de issues foi
-> realizada.
-> A ferramenta de controle de versão adotada no projeto foi o
-> [Git](https://git-scm.com/), sendo que o [Github](https://github.com)
-> foi utilizado para hospedagem do repositório `upstream`.
-> 
-> O projeto segue a seguinte convenção para o nome de branchs:
-> 
-> - `master`: versão estável já testada do software
-> - `unstable`: versão já testada do software, porém instável
-> - `testing`: versão em testes do software
-> - `dev`: versão de desenvolvimento do software
-> 
-> Quanto à gerência de issues, o projeto adota a seguinte convenção para
-> etiquetas:
-> 
-> - `bugfix`: uma funcionalidade encontra-se com problemas
-> - `enhancement`: uma funcionalidade precisa ser melhorada
-> - `feature`: uma nova funcionalidade precisa ser introduzida
->
-> **Links Úteis**:
-> - [Tutorial GitHub](https://guides.github.com/activities/hello-world/)
-> - [Git e Github](https://www.youtube.com/playlist?list=PLHz_AreHm4dm7ZULPAmadvNhH6vk9oNZA)
-> - [5 Git Workflows & Branching Strategy to deliver better code](https://zepel.io/blog/5-git-workflows-to-improve-development/)
->
-> **Exemplo - GitHub Feature Branch Workflow**:
->
-> ![Exemplo de Wireframe](images/Github-Workflow.png)
+Agora na Sprint 4, utilizamos um repositório a parte para hospedar o site no vercel, já que estava dando muitos erros. Fizemos isto através de fork da master (https://github.com/Eduardo296/carreiras)
+O repositório original conta com 10 branch onde fizemos as alterações durante o projeto e a master onde está o conteúdo final
 
 # **############## SPRINT 1 ACABA AQUI #############**
 
-
 # Projeto da Solução
 
-......  COLOQUE AQUI O SEU TEXTO ......
+O projeto consiste em um Quiz interativo que auxilia os usuários na escolha de um curso de graduação, utilizando uma combinação de tecnologias e bibliotecas para oferecer uma experiência rica e envolvente. Além de ser possível a pesquisa por cerca de 50 cursos.
 
 ## Tecnologias Utilizadas
 
-......  COLOQUE AQUI O SEU TEXTO ......
+No projeto, utilizamos uma variedade de linguagens de programação e ferramentas para desenvolver e hospedar nossa aplicação.
+  As principais linguagens empregadas foram:
+      HTML (HyperText Markup Language): Usado para estruturar o conteúdo da página web, definindo elementos como parágrafos, títulos, links e imagens.
+      CSS (Cascading Style Sheets): Utilizado para estilizar a aparência da página, controlando cores, fontes, layouts e outros aspectos visuais.
+      JavaScript: Uma linguagem de programação essencial para adicionar interatividade e dinamismo à página, permitindo a criação de funcionalidades avançadas no lado do cliente.
+      JSON (JavaScript Object Notation): Utilizado para o intercâmbio de dados entre o servidor e o cliente de uma maneira leve e eficiente.
+Além dessas linguagens, integramos algumas bibliotecas JavaScript para facilitar o desenvolvimento e adicionar funcionalidades específicas:
+      Chart.js: Uma biblioteca poderosa para a criação de gráficos interativos e visualmente atraentes, permitindo a visualização de dados de forma clara e intuitiva.
+      jsPDF: Utilizada para a geração de documentos PDF diretamente no navegador, possibilitando a exportação de relatórios e outros documentos de forma dinâmica.
+      emailJS: Facilitou o envio de emails diretamente do JavaScript, sem a necessidade de configurar um servidor backend para essa função.
+Para hospedar o projeto, optamos por utilizar a plataforma VERCEL devido à sua facilidade de uso e integração eficiente com outras ferramentas de desenvolvimento, como GitHub e outras plataformas de CI/CD (Continuous Integration/Continuous Deployment). A VERCEL oferece um ambiente otimizado para aplicações frontend, garantindo desempenho e escalabilidade.
 
-> Descreva aqui qual(is) tecnologias você vai usar para resolver o seu
-> problema, ou seja, implementar a sua solução. Liste todas as
-> tecnologias envolvidas, linguagens a serem utilizadas, serviços web,
-> frameworks, bibliotecas, IDEs de desenvolvimento, e ferramentas.
-> Apresente também uma figura explicando como as tecnologias estão
-> relacionadas ou como uma interação do usuário com o sistema vai ser
-> conduzida, por onde ela passa até retornar uma resposta ao usuário.
-> 
-> Inclua os diagramas de User Flow, esboços criados pelo grupo
-> (stoyboards), além dos protótipos de telas (wireframes). Descreva cada
-> item textualmente comentando e complementando o que está apresentado
-> nas imagens.
+  +-----------------+      +---------------------+      +----------------------+
+  |     Usuário     |      |      Frontend       |      | Simulação de backend |
+  +-----------------+      +---------------------+      +----------------------+
+           |                          |                            |
+     Interage com               Processa e exibe              Processa dados,
+        a UI                    conteúdo visual              lógica de negócios
+           |                          |                            |
+     +-----v--------------------------v----------------------------v-----+
+     |                   Serviço de Hospedagem (Vercel)                  |
+     +-------------------------------------------------------------------+
+
+# wireframes
+
+Tela - Home
+<img src="/pco-si-2024-1-tiaw-explorador-de-carreiras/docs/02 - relatório técnico/images/Home (1).png"> 
+A tela de home-page mostra o cabeçalho (contém nossa logo e botões como Feedback, Cursos, Login e Crie uma conta) junto com botões para iniciar o teste, logo abaixo quantos teste já realizados, saiba mais e um rodapé (contém nossa logo e botões como Contato, Políticas de Privacidade e Equipe). 
+
+Tela - Sing In/ Sing Up
+<img src="/pco-si-2024-1-tiaw-explorador-de-carreiras/docs/02 - relatório técnico/images/Sing in.png">
+Nesta tela o usuário terá que colocar dados como nome e senha, já registados, assim acessando sua conta.
+<img src="/pco-si-2024-1-tiaw-explorador-de-carreiras/docs/02 - relatório técnico/images/Sing Up.png">
+ Nesta tela o usuário terá que colocar dados como nome, e-mail e senha, além de poder
+ logar com uma rede social
+
+Tela - Instruções
+<img src="/pco-si-2024-1-tiaw-explorador-de-carreiras/docs/02 - relatório técnico/images/Informações.png">
+ Nesta tela o usuário receberá todas as informações do Quiz além de poder iniciar o teste, porém acabou sendo retirada do projeto final devido a imprevistos com a equipe.
+
+Tela - Pergunta
+<img src="/pco-si-2024-1-tiaw-explorador-de-carreiras/docs/02 - relatório técnico/images/Quiz.png">
+ Tela onde serão feitas 20 perguntas para o mapeamento do perfil do usuário e levará a tela
+ de resposta ao clicar em Finalizar, onde foi incrementado botão para retornar à questão anterior e um mostrador de qual pergunta o usuário se encontra
+
+Tela - Resposta 
+<img src="/pco-si-2024-1-tiaw-explorador-de-carreiras/docs/02 - relatório técnico/images/Resultados.png">
+Aqui será exibido o resultado para o cliente onde terá as indicações de cursos de acordo com o perfil mapeado, tendo várias informações dos cursos na página de Cursos. Podendo ser baixado como PDF
+
+Tela - Cursos
+<img src="/pco-si-2024-1-tiaw-explorador-de-carreiras/docs/02 - relatório técnico/images/Cursos.png"> 
+Aqui o usuário tem uma barra de pesquisa onde exibirá os cursos de acordo com a mesma, além de poder navegar entre quase 50 cursos, onde ao clicar terá informações dele.
+
+Tela - Feedback
+<img src="/pco-si-2024-1-tiaw-explorador-de-carreiras/docs/02 - relatório técnico/images/Feedback.png">
+Nesta tela, os usuários têm a oportunidade de compartilhar suas própriasopiniões sobre o site.
+
+Tela - Contato
+<img src="/pco-si-2024-1-tiaw-explorador-de-carreiras/docs/02 - relatório técnico/images/Contato.png">
+O usuário poderá entrar em contato com a equipe através do próprio site mandando mensagem para o email da equipe, onde será atendido.
+
+Tela - Política de privacidade 
+<img src="/pco-si-2024-1-tiaw-explorador-de-carreiras/docs/02 - relatório técnico/images/Política de Privacidade.png">
+Tela onde teria as privacidades do site, porém acabou sendo retirada do projeto final devido a imprevistos com a equipe.
+
+Tela - Equipe 
+<img src="/pco-si-2024-1-tiaw-explorador-de-carreiras/docs/02 - relatório técnico/images/Equipe.png"> 
+Tela onde é possível visualizar os memros da equipe e seus nomes
+
 
 ## Arquitetura da solução
 
-......  COLOQUE AQUI O SEU TEXTO E O DIAGRAMA DE ARQUITETURA .......
+Componentes Principais da Arquitetura da Solução
 
-> Inclua um diagrama da solução e descreva os módulos e as tecnologias
-> que fazem parte da solução. Discorra sobre o diagrama.
-> 
-> **Exemplo do diagrama de Arquitetura**:
-> 
-> ![Exemplo de Arquitetura](images/arquitetura-exemplo.png)
+      HTML (HyperText Markup Language): Usado para estruturar o conteúdo da página web, definindo elementos como parágrafos, títulos, links e imagens.
+      CSS (Cascading Style Sheets): Utilizado para estilizar a aparência da página, controlando cores, fontes, layouts e outros aspectos visuais.
+      JavaScript: Uma linguagem de programação essencial para adicionar interatividade e dinamismo à página, permitindo a criação de funcionalidades avançadas no lado do cliente.
+      JSON (JavaScript Object Notation): Utilizado para o intercâmbio de dados entre o servidor e o cliente de uma maneira leve e eficiente.
+      Para hospedar o projeto, optamos por utilizar a plataforma VERCEL devido à sua facilidade de uso e integração eficiente com outras ferramentas de desenvolvimento, como GitHub e outras plataformas de CI/CD (Continuous Integration/Continuous Deployment). A VERCEL oferece um ambiente otimizado para aplicações frontend, garantindo desempenho e escalabilidade.
 
+Ao acessar o site por meio do link carreiras-pink.vercel.app, você será direcionado para a página inicial. Para acessar qualquer outro recurso do site, é necessário criar uma conta ou fazer login. Após concluir o cadastro, você poderá escolher entre as opções "Decidido" ou "Não Decidido". A opção "Decidido" é destinada ao usuário que já sabe qual curso deseja seguir e quer apenas obter informações sobre esse curso ou cursos relacionados. Já a opção "Não Decidido" é para aqueles que ainda estão indecisos e buscam orientação.
+
+Ao selecionar "Não Decidido", você será direcionado para uma página de quiz, onde poderá visualizar a questão atual e retornar à questão anterior, se necessário. Após finalizar o quiz, você será redirecionado para a página de resultados, onde encontrará o botão "Mostrar/Ocultar Resultados". Ao clicar nesse botão, um gráfico referente ao quiz realizado será exibido. Você também terá a opção de baixar o gráfico como PDF "Download do Resultado Detalhado". É importante lembrar que o PDF só pode ser baixado após a visualização do gráfico.
+
+A partir desse ponto, ao clicar na "Página de cursos", você poderá navegar por cerca de 50 cursos diferentes e visualizar suas informações. Em várias páginas, o cabeçalho inclui a opção de Feedback, onde você pode expressar suas opiniões sobre o site. No rodapé, há uma seção para entrar em contato com nossa equipe, descrevendo quaisquer problemas encontrados.
 
 # Avaliação da Aplicação
 
-......  COLOQUE AQUI O SEU TEXTO ......
+<a href="/pco-si-2024-1-tiaw-explorador-de-carreiras/docs/02 - relatório técnico/Testes_PDF/Teste EQUIPE SPRINT-2.pdf"></a>
+<a href="/pco-si-2024-1-tiaw-explorador-de-carreiras/docs/02 - relatório técnico/Testes_PDF/Teste EQUIPE SPRINT-3.pdf"></a>
 
-> Apresente os cenários de testes utilizados na realização dos testes da
-> sua aplicação. Escolha cenários de testes que demonstrem os requisitos
-> sendo satisfeitos.
+Nos PDFs acima estão todos os cenários de teste utilizados na realização dos testes de nossa aplicação.
 
 ## Plano de Testes
 
-......  COLOQUE AQUI O SEU TEXTO ......
+# Allef Henrique Costa Leandro
 
-> Enumere quais cenários de testes foram selecionados para teste. Neste
-> tópico o grupo deve detalhar quais funcionalidades avaliadas, o grupo
-> de usuários que foi escolhido para participar do teste e as
-> ferramentas utilizadas.
-> 
-> **Links Úteis**:
-> - [IBM - Criação e Geração de Planos de Teste](https://www.ibm.com/developerworks/br/local/rational/criacao_geracao_planos_testes_software/index.html)
-> - [Práticas e Técnicas de Testes Ágeis](http://assiste.serpro.gov.br/serproagil/Apresenta/slides.pdf)
-> -  [Teste de Software: Conceitos e tipos de testes](https://blog.onedaytesting.com.br/teste-de-software/)
+
+# Eduardo Versiani de Melo Penna
+<a href="/pco-si-2024-1-tiaw-explorador-de-carreiras/docs/02 - relatório técnico/Testes_PDF/Sprint 2 -  Eduardo Versiani de Melo Penna.pdf"></a>
+<a href="/pco-si-2024-1-tiaw-explorador-de-carreiras/docs/02 - relatório técnico/Testes_PDF/Sprint 3 -  Eduardo Versiani de Melo Penna.pdf"></a>
+
+# João Pedro dos Santos Martins
+<a href="/pco-si-2024-1-tiaw-explorador-de-carreiras/docs/02 - relatório técnico/Testes_PDF/Sprint 2 -  João Pedro dos Santos Martins.rtf"></a>
+<a href="/pco-si-2024-1-tiaw-explorador-de-carreiras/docs/02 - relatório técnico/Testes_PDF/Sprint 3 -  João Pedro dos Santos Martins.docx"></a>
+
+# Victor Bryan Ferreira Lopes
+
+
+| Item de Teste      |                      Objetivo              | Critérios de Aceitação  |    Método Responsável |                              
+|-----------------------------|----------------------------------------------|-----------------------------------------------|
+| Tela de Quiz       | Verificar a impressão da perguntas e alternativas na tela| Carregar Página de Quiz| CI| Eduardo
+| Tela de Cursos     | Realizar uma barra de pesquisa          | Usuário digitar curso digitado| AI| Allef
+| Tela de Resultados | Verificar a exibição do gráfico         | Clicar no botão "Mostrar/Ocultar Resultados"| AI| Victor
+| Tela de Feedback   | Usuário poder adicionar comentários     | Usuário digitar e envaiar seu Feedback| AI| João Santos
+| Funcionalidades do Quiz| Adicionar um exibidor de pergunta e opção de voltar| Clicar no botão| AI | Eduardo
+| Carregamento tela de Cursos| Carregar os cursos              | Carregar Página de Cursos| AI| Allef
+| Resultados Detalhado   | Download do PDF                     | Clicar no botão "Download do Resultado Detalhado"| AI| Victor
+| Questionário "Decidido"| Usuário pode pesquisar curso        | Usuário digitar| AI| João Santos
+
+Não possuimos cenários de testes referêntes aos artefatos de Gustavo Henrique Soares da Silva e de João Pedro Barbosa Oliveira, ambos trancaram o curso e abandoram o projeto, porém alguns requisitos destinados aos mesmos estão funcionando em nosso site como Tela de Home e Tela de Contato. 
+
+Testamos todas as telas de nosso site, suas intrações e sua responsividade
 
 ## Ferramentas de Testes (Opcional)
 
-......  COLOQUE AQUI O SEU TEXTO ......
-
-> Comente sobre as ferramentas de testes utilizadas.
-> 
-> **Links Úteis**:
-> - [Ferramentas de Test para Java Script](https://geekflare.com/javascript-unit-testing/)
-> - [UX Tools](https://uxdesign.cc/ux-user-research-and-user-testing-tools-2d339d379dc7)
+Extensão live server.
 
 ## Registros de Testes
 
-......  COLOQUE AQUI O SEU TEXTO ......
+# Allef Henrique Costa Leandro
 
-> Discorra sobre os resultados do teste. Ressaltando pontos fortes e
-> fracos identificados na solução. Comente como o grupo pretende atacar
-> esses pontos nas próximas iterações. Apresente as falhas detectadas e
-> as melhorias geradas a partir dos resultados obtidos nos testes.
 
+# Eduardo Versiani de Melo Penna
+<a href="/pco-si-2024-1-tiaw-explorador-de-carreiras/docs/02 - relatório técnico/Testes_PDF/Sprint 2 -  Eduardo Versiani de Melo Penna.pdf"></a>
+<a href="/pco-si-2024-1-tiaw-explorador-de-carreiras/docs/02 - relatório técnico/Testes_PDF/Sprint 3 -  Eduardo Versiani de Melo Penna.pdf"></a>
+
+# João Pedro dos Santos Martins
+<a href="/pco-si-2024-1-tiaw-explorador-de-carreiras/docs/02 - relatório técnico/Testes_PDF/Sprint 2 -  João Pedro dos Santos Martins.rtf"></a>
+<a href="/pco-si-2024-1-tiaw-explorador-de-carreiras/docs/02 - relatório técnico/Testes_PDF/Sprint 3 -  João Pedro dos Santos Martins.docx"></a>
+
+# Victor Bryan Ferreira Lopes
+
+
+Os testes mostraram que as interfaces estavam intuitiva e fácil de usar, o que facilitou a navegação pelo questionário e a interpretação dos resultados. 
+As funcionalidades principais, como o preenchimento do questionário e a geração de perfis de carreira baseados nas respostas, funcionaram de maneira consistente e sem problemas significativos.
+Notável uma pequena demora em alguns dispositívos ao carregar a tela de curso, devido a quantidade de informações da mesma.
+
+Cada iteração do projeto se baseará nos resultados desses testes para garantir um progresso contínuo e eficaz na evolução do Explorador de Carreira.
 
 # Referências
 
-......  COLOQUE AQUI O SEU TEXTO ......
+Disponível em: https://www.teses.usp.br/teses/disponiveis/27/27151/tde-10112010-161748/publico/2349906.pdf Acesso em: 14 abr. 2024. 
+Disponível em: http://revista.educacao.ws/revista/index.php/abenge/article/view/107/87 Acesso em: 14 abr. 2024. 
+Disponível em: https://repositorio.ufc.br/bitstream/riufc/25053/1/2016_tcc_mssilva.pdf Acesso em: 13 abr. 2024. 
+Disponível em: https://www.redalyc.org/pdf/5615/561576594005.pdf Acesso em: 14 abr. 2024. 
+Disponível em: https://eademfoco.cecierj.edu.br/index.php/Revista/article/view/273/146 Acesso em: 12 abr. 2024. 
+Disponível em: https://estudogeral.uc.pt/bitstream/10316/33338/1/TESE%20MIP%20-%20Vanessa%20Sim%c3%b5es%20-%202016.pdf Acesso em: 10 abr. 2024. 
+Disponível em: http://pepsic.bvsalud.org/scielo.php?pid=S1676-73142002000200006&script=sci_arttext Acesso em: 14 abr. 2024. 
+Miro. Disponível em: https://miro.com/welcomeonboard/a29idmRRN0QxVTNKVjFiRWxDT0gyY3RyVnFIem45WTk5aWE4bnI4dldvRFNpQ1VKUW5yRXE0Wk5mamoyb1FHMnwzNDU4NzY0NTgzMjg3NjcyNzkzfDI=?share_link_id=329342821260 Acesso em: abril de 2024; 
+Figma. Disponível em: https://www.figma.com/proto/v3zb7hO8J6ErXTzt2OBlp1/Untitled?type=design&node-id=8-143&t=xRnNlFFVeVgTwaPD-0&scaling=min-zoom&page-id=0%3A1 Acesso em: abril de 2024; 
+Miro. Disponível em: https://miro.com/app/board/uXjVNjOtyy0=/?share_link_id=649975070300 Acesso em: abril de 2024; 
+Figma. Disponível em: https://www.figma.com/file/v3zb7hO8J6ErXTzt2OBlp1/Untitled?type=design&node-id=0-1&mode=design&t=7VvyZBmm3CBXCuj6-0 Acesso em: abril de 2024; 
+Vercel. Disponível em: 
+https://carreiras-pink.vercel.app/ Acesso em: junho de 2024; 
+Node.js. Disponível em: 
+https://nodejs.org/pt Acesso em: maio de 2024; 
 
-> Inclua todas as referências (livros, artigos, sites, etc) utilizados
-> no desenvolvimento do trabalho.
-> 
-> **Links Úteis**:
-> - [Formato ABNT](https://www.normastecnicas.com/abnt/trabalhos-academicos/referencias/)
 =======
-# Informações do Projeto
-`TÍTULO DO PROJETO`  
-
-......  COLOQUE AQUI O SEU TEXTO ......
-
-`CURSO` 
-
-......  COLOQUE AQUI O SEU TEXTO ......
-
-## Participantes
-
-......  COLOQUE AQUI O SEU TEXTO ......
-
-> Inclua a lista dos membros da equipe com seus nomes completos.
->
-> Os membros do grupo são: 
-> - Fulano da Silva
-> - Ciclano Albuquerque
-
-# Estrutura do Documento
-
-- [Informações do Projeto](#informações-do-projeto)
-  - [Participantes](#participantes)
-- [Estrutura do Documento](#estrutura-do-documento)
-- [Introdução](#introdução)
-  - [Problema](#problema)
-  - [Objetivos](#objetivos)
-  - [Justificativa](#justificativa)
-  - [Público-Alvo](#público-alvo)
-- [Especificações do Projeto](#especificações-do-projeto)
-  - [Personas, Empatia e Proposta de Valor](#personas-empatia-e-proposta-de-valor)
-  - [Histórias de Usuários](#histórias-de-usuários)
-  - [Requisitos](#requisitos)
-    - [Requisitos Funcionais](#requisitos-funcionais)
-    - [Requisitos não Funcionais](#requisitos-não-funcionais)
-  - [Restrições](#restrições)
-- [Projeto de Interface](#projeto-de-interface)
-  - [User Flow](#user-flow)
-  - [Wireframes](#wireframes)
-- [Metodologia](#metodologia)
-  - [Divisão de Papéis](#divisão-de-papéis)
-  - [Ferramentas](#ferramentas)
-  - [Controle de Versão](#controle-de-versão)
-- [**############## SPRINT 1 ACABA AQUI #############**](#-sprint-1-acaba-aqui-)
-- [Projeto da Solução](#projeto-da-solução)
-  - [Tecnologias Utilizadas](#tecnologias-utilizadas)
-  - [Arquitetura da solução](#arquitetura-da-solução)
-- [Avaliação da Aplicação](#avaliação-da-aplicação)
-  - [Plano de Testes](#plano-de-testes)
-  - [Ferramentas de Testes (Opcional)](#ferramentas-de-testes-opcional)
-  - [Registros de Testes](#registros-de-testes)
-- [Referências](#referências)
-
-
-# Introdução
-
-## Problema
-
-......  COLOQUE AQUI O SEU TEXTO ......
-
-> Nesse momento você deve apresentar o problema que a sua aplicação deve
-> resolver. No entanto, não é a hora de comentar sobre a aplicação.
-> Descreva também o contexto em que essa aplicação será usada, se
-> houver: empresa, tecnologias, etc. Novamente, descreva apenas o que de
-> fato existir, pois ainda não é a hora de apresentar requisitos
-> detalhados ou projetos.
->
-> Nesse momento, o grupo pode optar por fazer uso
-> de ferramentas como Design Thinking, que permite um olhar de ponta a
-> ponta para o problema.
->
-> **Links Úteis**:
-> - [Objetivos, Problema de pesquisa e Justificativa](https://medium.com/@versioparole/objetivos-problema-de-pesquisa-e-justificativa-c98c8233b9c3)
-> - [Matriz Certezas, Suposições e Dúvidas](https://medium.com/educa%C3%A7%C3%A3o-fora-da-caixa/matriz-certezas-suposi%C3%A7%C3%B5es-e-d%C3%BAvidas-fa2263633655)
-> - [Brainstorming](https://www.euax.com.br/2018/09/brainstorming/)
-
-## Objetivos
-
-......  COLOQUE AQUI O SEU TEXTO ......
-
-> Aqui você deve descrever os objetivos do trabalho indicando que o
-> objetivo geral é desenvolver um software para solucionar o problema
-> apresentado acima. Apresente também alguns (pelo menos 2) objetivos
-> específicos dependendo de onde você vai querer concentrar a sua
-> prática investigativa, ou como você vai aprofundar no seu trabalho.
-> 
-> **Links Úteis**:
-> - [Objetivo geral e objetivo específico: como fazer e quais verbos utilizar](https://blog.mettzer.com/diferenca-entre-objetivo-geral-e-objetivo-especifico/)
-
-## Justificativa
-
-......  COLOQUE AQUI O SEU TEXTO ......
-
-> Descreva a importância ou a motivação para trabalhar com esta aplicação
-> que você escolheu. Indique as razões pelas quais você escolheu seus
-> objetivos específicos ou as razões para aprofundar em certos aspectos
-> do software.
-> 
-> O grupo de trabalho pode fazer uso de questionários, entrevistas e
-> dados estatísticos, que podem ser apresentados, com o objetivo de
-> esclarecer detalhes do problema que será abordado pelo grupo.
->
-> **Links Úteis**:
-> - [Como montar a justificativa](https://guiadamonografia.com.br/como-montar-justificativa-do-tcc/)
-
-## Público-Alvo
-
-......  COLOQUE AQUI O SEU TEXTO ......
-
-> Descreva quem serão as pessoas que usarão a sua aplicação indicando os
-> diferentes perfis. O objetivo aqui não é definir quem serão os
-> clientes ou quais serão os papéis dos usuários na aplicação. A ideia
-> é, dentro do possível, conhecer um pouco mais sobre o perfil dos
-> usuários: conhecimentos prévios, relação com a tecnologia, relações
-> hierárquicas, etc.
->
-> Adicione informações sobre o público-alvo por meio de uma descrição
-> textual, ou diagramas de personas, mapa de stakeholders, ou como o
-> grupo achar mais conveniente.
-> 
-> **Links Úteis**:
-> - [Público-alvo: o que é, tipos, como definir seu público e exemplos](https://klickpages.com.br/blog/publico-alvo-o-que-e/)
-> - [Qual a diferença entre público-alvo e persona?](https://rockcontent.com/blog/diferenca-publico-alvo-e-persona/)
- 
-# Especificações do Projeto
-
-......  COLOQUE AQUI O SEU TEXTO ......
-
-> Apresente uma visão geral do que será abordado nesta parte do
-> documento, enumerando as técnicas e/ou ferramentas utilizadas para
-> realizar a especificações do projeto
-
-## Personas, Empatia e Proposta de Valor
-
-......  COLOQUE AQUI O SEU TEXTO ......
-
-
-> Relacione as personas identificadas no seu projeto, os respectivos mapas de empatia e 
-> mapas da proposta de valor. Lembre-se que você deve ser enumerar e descrever precisamente 
-> e de forma personalizada todos os principais envolvidos com a solução almeja. 
-> 
-> Para tanto, baseie-se tanto nos documentos disponibilizados na disciplina
-> e/ou nos seguintes links:
->
-> **Links Úteis**:
-> - [Persona x Público-alvo](https://flammo.com.br/blog/persona-e-publico-alvo-qual-a-diferenca/)
-> - [O que é persona?](https://resultadosdigitais.com.br/blog/persona-o-que-e/)
-> - [Rock Content](https://rockcontent.com/blog/personas/)
-> - [Hotmart](https://blog.hotmart.com/pt-br/como-criar-persona-negocio/)
-> - [Mapa de Empatia](https://resultadosdigitais.com.br/blog/mapa-da-empatia/)
-> - [Como fazer um mapa de empatia - Vídeo](https://www.youtube.com/watch?v=JlKHGpVoA2Y)
-> - [Canvas da Proposta de Valor](https://analistamodelosdenegocios.com.br/canvas-da-proposta-de-valor/)
-> 
-> 
-> **Exemplo de Persona**
-> 
-> ![Exemplo de Persona](images/persona.png)
-> 
-> Fonte: [Como criar uma persona para o seu negócio](https://raissaviegas.com.br/como-criar-uma-persona/)
->
-> **Exemplo de Proposta de Valor**
-> ![Exemplo da Proposta de Valor](images/proposta_valor.png)
-
-
-## Histórias de Usuários
-
-Com base na análise das personas forma identificadas as seguintes histórias de usuários:
-
-|EU COMO... `PERSONA`| QUERO/PRECISO ... `FUNCIONALIDADE` |PARA ... `MOTIVO/VALOR`                 |
-|--------------------|------------------------------------|----------------------------------------|
-|Usuário do sistema  | Registrar minhas tarefas           | Não esquecer de fazê-las               |
-|Administrador       | Alterar permissões                 | Permitir que possam administrar contas |
-
-> Apresente aqui as histórias de usuário que são relevantes para o
-> projeto de sua solução. As Histórias de Usuário consistem em uma
-> ferramenta poderosa para a compreensão e elicitação dos requisitos
-> funcionais e não funcionais da sua aplicação. Se possível, agrupe as
-> histórias de usuário por contexto, para facilitar consultas
-> recorrentes à essa parte do documento.
->
-> **Links Úteis**:
-> - [Histórias de usuários com exemplos e template](https://www.atlassian.com/br/agile/project-management/user-stories)
-> - [Como escrever boas histórias de usuário (User Stories)](https://medium.com/vertice/como-escrever-boas-users-stories-hist%C3%B3rias-de-usu%C3%A1rios-b29c75043fac)
-
-## Requisitos
-
-As tabelas que se seguem apresentam os requisitos funcionais e não funcionais que detalham o escopo do projeto.
-
-### Requisitos Funcionais
-
-|ID    | Descrição do Requisito  | Prioridade |
-|------|-----------------------------------------|----|
-|RF-001| Permitir que o usuário cadastre tarefas | ALTA | 
-|RF-002| Emitir um relatório de tarefas no mês   | MÉDIA |
-
-
-### Requisitos não Funcionais
-
-|ID     | Descrição do Requisito  |Prioridade |
-|-------|-------------------------|----|
-|RNF-001| O sistema deve ser responsivo para rodar em um dispositivos móvel | MÉDIA | 
-|RNF-002| Deve processar requisições do usuário em no máximo 3s |  BAIXA | 
-
-> Com base nas Histórias de Usuário, enumere os requisitos da sua
-> solução. Classifique esses requisitos em dois grupos:
->
-> - [Requisitos Funcionais (RF)](https://pt.wikipedia.org/wiki/Requisito_funcional):
->   correspondem a uma funcionalidade que deve estar presente na
->   plataforma (ex: cadastro de usuário).
->
-> - [Requisitos Não Funcionais (RNF)](https://pt.wikipedia.org/wiki/Requisito_n%C3%A3o_funcional):
->   correspondem a uma característica técnica, seja de usabilidade,
->   desempenho, confiabilidade, segurança ou outro (ex: suporte a
->   dispositivos iOS e Android).
->
-> Lembre-se que cada requisito deve corresponder à uma e somente uma
-> característica alvo da sua solução. Além disso, certifique-se de que
-> todos os aspectos capturados nas Histórias de Usuário foram cobertos.
-> 
-> **Links Úteis**:
-> 
-> - [O que são Requisitos Funcionais e Requisitos Não Funcionais?](https://codificar.com.br/requisitos-funcionais-nao-funcionais/)
-> - [O que são requisitos funcionais e requisitos não funcionais?](https://analisederequisitos.com.br/requisitos-funcionais-e-requisitos-nao-funcionais-o-que-sao/)
-
-
-## Restrições
-
-O projeto está restrito pelos itens apresentados na tabela a seguir.
-
-|ID| Restrição                                             |
-|--|-------------------------------------------------------|
-|01| O projeto deverá ser entregue até o final do semestre |
-|02| Não pode ser desenvolvido um módulo de backend        |
-
-
-> Enumere as restrições à sua solução. Lembre-se de que as restrições
-> geralmente limitam a solução candidata.
-> 
-> **Links Úteis**:
-> - [O que são Requisitos Funcionais e Requisitos Não Funcionais?](https://codificar.com.br/requisitos-funcionais-nao-funcionais/)
-> - [O que são requisitos funcionais e requisitos não funcionais?](https://analisederequisitos.com.br/requisitos-funcionais-e-requisitos-nao-funcionais-o-que-sao/)
-
-
-# Projeto de Interface
-
-......  COLOQUE AQUI O SEU TEXTO DE INTRODUÇÃO ......
-
-> Apresente as principais interfaces da solução. Discuta como 
-> foram elaboradas de forma a atender os requisitos funcionais, não
-> funcionais e histórias de usuário abordados nas [Especificações do
-> Projeto](#especificações-do-projeto).
-
-## User Flow
-
-......  INCLUA AQUI O DIAGRAMA COM O FLUXO DO USUÁRIO NA APLICAÇÃO ......
-
-> Fluxo de usuário (User Flow) é uma técnica que permite ao desenvolvedor
-> mapear todo fluxo de telas do site ou app. Essa técnica funciona
-> para alinhar os caminhos e as possíveis ações que o usuário pode
-> fazer junto com os membros de sua equipe.
->
-> **Links Úteis**:
-> - [User Flow: O Quê É e Como Fazer?](https://medium.com/7bits/fluxo-de-usu%C3%A1rio-user-flow-o-que-%C3%A9-como-fazer-79d965872534)
-> - [User Flow vs Site Maps](http://designr.com.br/sitemap-e-user-flow-quais-as-diferencas-e-quando-usar-cada-um/)
-> - [Top 25 User Flow Tools & Templates for Smooth](https://www.mockplus.com/blog/post/user-flow-tools)
->
-> **Exemplo**:
-> 
-> ![Exemplo de UserFlow](images/userflow.jpg)
-
-
-## Wireframes
-
-......  INCLUA AQUI OS WIREFRAMES DAS TELAS DA APLICAÇÃO COM UM BREVE DESCRITIVO ......
-
-> Wireframes são protótipos das telas da aplicação usados em design de interface para sugerir a
-> estrutura de um site web e seu relacionamentos entre suas
-> páginas. Um wireframe web é uma ilustração semelhante ao
-> layout de elementos fundamentais na interface.
-> 
-> **Links Úteis**:
-> - [Ferramentas de Wireframes](https://rockcontent.com/blog/wireframes/)
-> - [Figma](https://www.figma.com/)
-> - [Adobe XD](https://www.adobe.com/br/products/xd.html#scroll)
-> - [MarvelApp](https://marvelapp.com/developers/documentation/tutorials/)
-> 
-> **Exemplo**:
-> 
-> ![Exemplo de Wireframe](images/wireframe-example.png)
-
-
-# Metodologia
-
-......  COLOQUE AQUI O SEU TEXTO ......
-
-> Nesta parte do documento, você deve apresentar a metodologia 
-> adotada pelo grupo, descrevendo o processo de trabalho baseado nas metodologias ágeis, 
-> a divisão de papéis e tarefas, as ferramentas empregadas e como foi realizada a
-> gestão de configuração do projeto via GitHub.
->
-> Coloque detalhes sobre o processo de Design Thinking e a implementação do Framework Scrum seguido
-> pelo grupo. O grupo poderá fazer uso de ferramentas on-line para acompanhar
-> o andamento do projeto, a execução das tarefas e o status de desenvolvimento
-> da solução.
-> 
-> **Links Úteis**:
-> - [Tutorial Trello](https://trello.com/b/8AygzjUA/tutorial-trello)
-> - [Gestão ágil de projetos com o Trello](https://www.youtube.com/watch?v=1o9BOMAKBRE)
-> - [Gerência de projetos - Trello com Scrum](https://www.youtube.com/watch?v=DHLA8X_ujwo)
-> - [Tutorial Slack](https://slack.com/intl/en-br/)
-
-## Divisão de Papéis
-
-......  COLOQUE AQUI O SEU TEXTO ......
-
-> Apresente a divisão de papéis e tarefas entre os membros do grupo.
->
-> **Links Úteis**:
-> - [11 Passos Essenciais para Implantar Scrum no seu Projeto](https://mindmaster.com.br/scrum-11-passos/)
-> - [Scrum em 9 minutos](https://www.youtube.com/watch?v=XfvQWnRgxG0)
-
-
-## Ferramentas
-
-......  COLOQUE AQUI O SEU TEXTO - SIGA O EXEMPLO DA TABELA ABAIXO  ......
-
-| Ambiente  | Plataforma              |Link de Acesso |
-|-----------|-------------------------|---------------|
-|Processo de Design Thinkgin  | Miro |  https://miro.com/XXXXXXX | 
-|Repositório de código | GitHub | https://github.com/XXXXXXX | 
-|Hospedagem do site | Heroku |  https://XXXXXXX.herokuapp.com | 
-|Protótipo Interativo | MavelApp ou Figma | https://figma.com/XXXXXXX | 
-
->
-> Liste as ferramentas empregadas no desenvolvimento do
-> projeto, justificando a escolha delas, sempre que possível.
-> 
-> As ferramentas empregadas no projeto são:
-> 
-> - Editor de código.
-> - Ferramentas de comunicação
-> - Ferramentas de diagramação
-> - Plataforma de hospedagem
-> 
-> O editor de código foi escolhido porque ele possui uma integração com o
-> sistema de versão. As ferramentas de comunicação utilizadas possuem
-> integração semelhante e por isso foram selecionadas. Por fim, para criar
-> diagramas utilizamos essa ferramenta por melhor captar as
-> necessidades da nossa solução.
-> 
-> **Links Úteis - Hospedagem**:
-> - [Getting Started with Heroku](https://devcenter.heroku.com/start)
-> - [Crie seu Site com o HostGator](https://www.hostgator.com.br/como-publicar-seu-site)
-> - [GoDady](https://br.godaddy.com/how-to)
-> - [GitHub Pages](https://pages.github.com/)
-
-## Controle de Versão
-
-......  COLOQUE AQUI O SEU TEXTO ......
-
-> Discuta como a configuração do projeto foi feita na ferramenta de
-> versionamento escolhida. Exponha como a gerência de tags, merges,
-> commits e branchs é realizada. Discuta como a gerência de issues foi
-> realizada.
-> A ferramenta de controle de versão adotada no projeto foi o
-> [Git](https://git-scm.com/), sendo que o [Github](https://github.com)
-> foi utilizado para hospedagem do repositório `upstream`.
-> 
-> O projeto segue a seguinte convenção para o nome de branchs:
-> 
-> - `master`: versão estável já testada do software
-> - `unstable`: versão já testada do software, porém instável
-> - `testing`: versão em testes do software
-> - `dev`: versão de desenvolvimento do software
-> 
-> Quanto à gerência de issues, o projeto adota a seguinte convenção para
-> etiquetas:
-> 
-> - `bugfix`: uma funcionalidade encontra-se com problemas
-> - `enhancement`: uma funcionalidade precisa ser melhorada
-> - `feature`: uma nova funcionalidade precisa ser introduzida
->
-> **Links Úteis**:
-> - [Tutorial GitHub](https://guides.github.com/activities/hello-world/)
-> - [Git e Github](https://www.youtube.com/playlist?list=PLHz_AreHm4dm7ZULPAmadvNhH6vk9oNZA)
-> - [5 Git Workflows & Branching Strategy to deliver better code](https://zepel.io/blog/5-git-workflows-to-improve-development/)
->
-> **Exemplo - GitHub Feature Branch Workflow**:
->
-> ![Exemplo de Wireframe](images/Github-Workflow.png)
-
-# **############## SPRINT 1 ACABA AQUI #############**
-
-
-# Projeto da Solução
-
-......  COLOQUE AQUI O SEU TEXTO ......
-
-## Tecnologias Utilizadas
-
-......  COLOQUE AQUI O SEU TEXTO ......
-
-> Descreva aqui qual(is) tecnologias você vai usar para resolver o seu
-> problema, ou seja, implementar a sua solução. Liste todas as
-> tecnologias envolvidas, linguagens a serem utilizadas, serviços web,
-> frameworks, bibliotecas, IDEs de desenvolvimento, e ferramentas.
-> Apresente também uma figura explicando como as tecnologias estão
-> relacionadas ou como uma interação do usuário com o sistema vai ser
-> conduzida, por onde ela passa até retornar uma resposta ao usuário.
-> 
-> Inclua os diagramas de User Flow, esboços criados pelo grupo
-> (stoyboards), além dos protótipos de telas (wireframes). Descreva cada
-> item textualmente comentando e complementando o que está apresentado
-> nas imagens.
-
-## Arquitetura da solução
-
-......  COLOQUE AQUI O SEU TEXTO E O DIAGRAMA DE ARQUITETURA .......
-
-> Inclua um diagrama da solução e descreva os módulos e as tecnologias
-> que fazem parte da solução. Discorra sobre o diagrama.
-> 
-> **Exemplo do diagrama de Arquitetura**:
-> 
-> ![Exemplo de Arquitetura](images/arquitetura-exemplo.png)
-
-
-# Avaliação da Aplicação
-
-......  COLOQUE AQUI O SEU TEXTO ......
-
-> Apresente os cenários de testes utilizados na realização dos testes da
-> sua aplicação. Escolha cenários de testes que demonstrem os requisitos
-> sendo satisfeitos.
-
-## Plano de Testes
-
-......  COLOQUE AQUI O SEU TEXTO ......
-
-> Enumere quais cenários de testes foram selecionados para teste. Neste
-> tópico o grupo deve detalhar quais funcionalidades avaliadas, o grupo
-> de usuários que foi escolhido para participar do teste e as
-> ferramentas utilizadas.
-> 
-> **Links Úteis**:
-> - [IBM - Criação e Geração de Planos de Teste](https://www.ibm.com/developerworks/br/local/rational/criacao_geracao_planos_testes_software/index.html)
-> - [Práticas e Técnicas de Testes Ágeis](http://assiste.serpro.gov.br/serproagil/Apresenta/slides.pdf)
-> -  [Teste de Software: Conceitos e tipos de testes](https://blog.onedaytesting.com.br/teste-de-software/)
-
-## Ferramentas de Testes (Opcional)
-
-......  COLOQUE AQUI O SEU TEXTO ......
-
-> Comente sobre as ferramentas de testes utilizadas.
-> 
-> **Links Úteis**:
-> - [Ferramentas de Test para Java Script](https://geekflare.com/javascript-unit-testing/)
-> - [UX Tools](https://uxdesign.cc/ux-user-research-and-user-testing-tools-2d339d379dc7)
-
-## Registros de Testes
-
-......  COLOQUE AQUI O SEU TEXTO ......
-
-> Discorra sobre os resultados do teste. Ressaltando pontos fortes e
-> fracos identificados na solução. Comente como o grupo pretende atacar
-> esses pontos nas próximas iterações. Apresente as falhas detectadas e
-> as melhorias geradas a partir dos resultados obtidos nos testes.
-
-
-# Referências
-
-......  COLOQUE AQUI O SEU TEXTO ......
-
-> Inclua todas as referências (livros, artigos, sites, etc) utilizados
-> no desenvolvimento do trabalho.
-> 
-> **Links Úteis**:
-> - [Formato ABNT](https://www.normastecnicas.com/abnt/trabalhos-academicos/referencias/)
->>>>>>> 576e4073eb686b7caee5801aac8f95491eb4d605:docs/relatorio/Relatorio Tecnico - TEMPLATE.md
-> - [Referências Bibliográficas da ABNT](https://comunidade.rockcontent.com/referencia-bibliografica-abnt/)
+# Finalização 
+`Código final e hospedado`
+Aqui deixo o link do site hospedado no vercel: (https://carreiras-pink.vercel.app/)
